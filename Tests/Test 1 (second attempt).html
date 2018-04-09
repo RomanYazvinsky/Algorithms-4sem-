@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html dir="ltr" xml:lang="ru" class="yui3-js-enabled" lang="ru"><head>
+    <title>Test 1 (second attempt)</title>
+    <link rel="shortcut icon" href="https://edu.grsu.by/theme/image.php/moove/theme/1522355589/favicon">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="moodle, Test 1 (second attempt)">
+<link rel="stylesheet" type="text/css" href="Test%201%20(second%20attempt)_files/yui_combo.css"><script charset="utf-8" id="yui_3_17_2_1_1522683884760_8" src="Test%201%20(second%20attempt)_files/yui_combo_002.php" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1522683884760_18" src="Test%201%20(second%20attempt)_files/flags.js" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1522683884760_204" src="Test%201%20(second%20attempt)_files/qengine.js" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1522683884760_205" src="Test%201%20(second%20attempt)_files/module.js" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1522683884760_206" src="Test%201%20(second%20attempt)_files/yui_combo_003.php" async=""></script><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="Test%201%20(second%20attempt)_files/all.css">
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/edu.grsu.by","sesskey":"xgwdAcnCH1","themerev":"1522355589","slasharguments":1,"theme":"moove","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":-1,"admin":"admin","svgicons":true,"usertimezone":"\u0415\u0432\u0440\u043e\u043f\u0430\/\u041c\u0438\u043d\u0441\u043a","contextid":343236};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/edu.grsu.by\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/edu.grsu.by\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/edu.grsu.by\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/edu.grsu.by\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/edu.grsu.by\/theme\/yui_combo.php?m\/-1\/","combine":true,"comboBase":"https:\/\/edu.grsu.by\/theme\/yui_combo.php?","ext":false,"root":"m\/-1\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader","moodle-core-event"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_language-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-qtype_ddimageortext-form":{"requires":["moodle-qtype_ddimageortext-dd","form_filepicker"]},"moodle-qtype_ddimageortext-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-qtype_ddmarker-form":{"requires":["moodle-qtype_ddmarker-dd","form_filepicker","graphics","escape"]},"moodle-qtype_ddmarker-dd":{"requires":["node","event-resize","dd","dd-drop","dd-constrain","graphics"]},"moodle-qtype_ddwtos-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-randomquestion":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-quizquestionbank":{"requires":["base","event","node","io","io-form","yui-later","moodle-question-qbankmanager","moodle-core-notification-dialogue"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_html-button":{"requires":["moodle-editor_atto-plugin","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/edu.grsu.by\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/edu.grsu.by\/theme\/yui_combo.php?","ext":false,"root":"gallery\/-1\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/edu.grsu.by\/lib\/javascript.php\/-1\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/edu.grsu.by\/lib\/javascript.php\/-1\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/mathjax\/2.7.1\/MathJax.js?delayStartupUntil=configured"},"core_question_flags":{"name":"core_question_flags","fullpath":"https:\/\/edu.grsu.by\/lib\/javascript.php\/-1\/question\/flags.js","requires":["base","dom","event-delegate","io-base"]},"core_question_engine":{"name":"core_question_engine","fullpath":"https:\/\/edu.grsu.by\/lib\/javascript.php\/-1\/question\/qengine.js","requires":["node","event"]},"mod_quiz":{"name":"mod_quiz","fullpath":"https:\/\/edu.grsu.by\/lib\/javascript.php\/-1\/mod\/quiz\/module.js","requires":["base","dom","event-delegate","event-key","core_question_engine","moodle-core-formchangechecker"]}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+<style>
+.usermenu .login a {
+    color: #000000 !important;
+}
+.rating {
+float:right;
+}
+.rating:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    clip:rect(0,0,0,0);
+}
+
+.rating:not(:checked) > label {
+    float:right;
+    width:1em;
+    padding:0 .1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:1.2vw;
+    line-height:1.2;
+    color:#ddd;
+    text-shadow:1px 1px #bbb, 2px 2px #666, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating:not(:checked) > label:before {
+    content: '★ ';
+}
+
+.rating > input:checked ~ label {
+    color: #f70;
+    text-shadow:1px 1px #c60, 2px 2px #940, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: gold;
+    text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #ea0;
+    text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating > label:active {
+    position:relative;
+    top:2px;
+    left:2px;
+}
+</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="core/first" src="Test%201%20(second%20attempt)_files/first.js"></script><script type="text/x-mathjax-config">
+
+MathJax.Hub.Config({
+    config: ["Accessible.js", "Safe.js"],
+    errorSettings: { message: ["!"] },
+    skipStartupTypeset: true,
+    messageStyle: "none"
+});
+</script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jqueryprivate" src="Test%201%20(second%20attempt)_files/jquery-private.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="Test%201%20(second%20attempt)_files/jquery-3.js"></script></head>
+
+<body id="page-mod-quiz-review" class="format-emcd  path-mod path-mod-quiz gecko dir-ltr lang-ru yui-skin-sam yui3-skin-sam edu-grsu-by pagelayout-incourse course-10454 context-343236 cmid-189424 category-1  jsenabled">
+
+<div id="page-wrapper">
+
+    <div>
+    <a class="sr-only sr-only-focusable" href="#maincontent">Перейти к основному содержанию</a>
+</div><script type="text/javascript" src="Test%201%20(second%20attempt)_files/yui_combo.php"></script><script type="text/javascript" src="Test%201%20(second%20attempt)_files/javascript-static.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+    <header role="banner" class="pos-f-t navbar navbar-full navbar-light bg-faded navbar-static-top moodle-has-zindex">
+    
+        <div class="container-fluid navbar-nav">
+    
+            <a href="https://edu.grsu.by/" class="navbar-brand has-logo
+                    ">
+                    <span class="logo hidden-xs-down">
+                        <img src="Test%201%20(second%20attempt)_files/logo.png" alt="СОП">
+                    </span>
+            </a>
+    
+            <nav class="nav navbar-nav hidden-md-down navbar-custom-menu">
+                <!-- custom_menu -->
+                <a class="nav-item nav-link" href="https://edu.grsu.by/" title="Образовательный портал">Образовательный портал</a><div class="dropdown nav-item">
+    <a class="dropdown-toggle nav-link" id="drop-down-5ac24fecc3da75ac24fec948484" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+        Полезные ссылки
+    </a>
+    <div class="dropdown-menu" aria-labelledby="drop-down-5ac24fecc3da75ac24fec948484">
+                <a class="dropdown-item" href="https://eduold.grsu.by/" target="_blank" title="Предыдущая версия образовательного портала">Предыдущая версия образовательного портала</a>
+                <a class="dropdown-item" href="https://emcd.grsu.by/" target="_blank" title="ЭУМК с 2012-2017гг.">ЭУМК с 2012-2017гг.</a>
+                <a class="dropdown-item" href="http://raspisanie.grsu.by/TimeTable/UMU.aspx" target="_blank" title="Расписание студенту">Расписание студенту</a>
+                <a class="dropdown-item" href="http://raspisanie.grsu.by/TimeTable/UMUTeachers.aspx" target="_blank" title="Расписание преподавателю">Расписание преподавателю</a>
+    </div>
+</div><div class="dropdown nav-item">
+    <a class="dropdown-toggle nav-link" id="drop-down-5ac24fecc40ba5ac24fec948485" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+        Помощь
+    </a>
+    <div class="dropdown-menu" aria-labelledby="drop-down-5ac24fecc40ba5ac24fec948485">
+                <a class="dropdown-item" href="https://edu.grsu.by/downloadFile.php?file=files%2Fhelp%2Ffaculty.pdf#" target="_blank" title="Контактная информация">Контактная информация</a>
+                <a class="dropdown-item" href="https://edu.grsu.by/downloadFile.php?file=files%2Fhelp%2Fhelp_emcd_laborant.pdf#" target="_blank" title="Назначение дисциплин">Назначение дисциплин</a>
+                <a class="dropdown-item" href="https://edu.grsu.by/downloadFile.php?file=files%2Fhelp%2Fhelp_import.pdf#" target="_blank" title="Импорт курсов">Импорт курсов</a>
+                <a class="dropdown-item" href="https://edu.grsu.by/downloadFile.php?file=files%2Fhelp%2Feumk.pdf#" target="_blank" title="Утверждение ЭУМК">Утверждение ЭУМК</a>
+                <a class="dropdown-item" href="https://edu.grsu.by/downloadFile.php?file=files%2Fhelp%2Freestr_eumk2017.pdf#" target="_blank" title="ЭУМК 2017">ЭУМК 2017</a>
+    </div>
+</div>
+                <!-- page_heading_menu -->
+                
+            </nav>
+    
+            <div class="popover-menu-items">
+                <ul class="nav navbar-nav">
+                    <li class="popover-region">
+                        <span class="dropdown nav-item lang-menu">
+    <a class="dropdown-toggle nav-link" id="drop-down-5ac24fecc4bac5ac24fec948488" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+        RU
+    </a>
+    <div class="dropdown-menu" aria-labelledby="drop-down-5ac24fecc4bac5ac24fec948488">
+                <a class="dropdown-item" href="https://edu.grsu.by/mod/quiz/review.php?attempt=76441&amp;lang=ru" title="Русский ‎(ru)‎">Русский ‎(ru)‎</a>
+                <a class="dropdown-item" href="https://edu.grsu.by/mod/quiz/review.php?attempt=76441&amp;lang=en" title="English ‎(en)‎">English ‎(en)‎</a>
+    </div>
+</span>
+                    </li>
+    
+                    <!-- navbar_plugin_output -->
+                    <li class="popover-region collapsed popover-region-messages" id="nav-message-popover-container" data-userid="2354" data-region="popover-region">
+    <div class="popover-region-toggle nav-link" data-region="popover-region-toggle" aria-role="button" aria-controls="popover-region-container-5ac24fecc53865ac24fec948489" aria-haspopup="true" aria-label="Показать окно без новых сообщений" tabindex="0">
+                <i class="fa fa-envelope-o" title="Переключить меню сообщений"></i>
+        <div class="count-container hidden" data-region="count-container"></div>
+
+    </div>
+    <div id="popover-region-container-5ac24fecc53865ac24fec948489" class="popover-region-container" data-region="popover-region-container" aria-expanded="false" aria-hidden="true" aria-label="Окно уведомления" role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Сообщения</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <div class="newmessage-link">
+                <a href="https://edu.grsu.by/message/index.php?contactsfirst=1">Новое сообщение
+                </a>
+        </div>
+        <div class="hover-tooltip-container">
+                    <a class="mark-all-read-button" href="#" role="button" title="Пометить все прочитанным" data-action="mark-all-read">
+                    <span class="normal-icon"><i class="fa fa-check" alt="Пометить все прочитанным"></i></span>
+                    <span class="loading-icon"><img class="icon " alt="Загрузка" title="Загрузка" src="Test%201%20(second%20attempt)_files/loading.gif"></span>
+                </a>
+
+    <div class="hover-tooltip">
+        Пометить все прочитанным
+    </div>
+</div>
+        <div class="hover-tooltip-container">
+                    <a href="https://edu.grsu.by/message/edit.php?id=2354" title="Настройки сообщений">
+                    <i class="fa fa-cog" alt="Настройки сообщений"></i>
+                </a>
+
+    <div class="hover-tooltip">
+        Настройки сообщений
+    </div>
+</div>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="messages" data-region="messages" role="log" aria-busy="false" aria-atomic="false" aria-relevant="additions"></div>
+        <div class="empty-message" data-region="empty-message" tabindex="0">Нет новых сообщений</div>
+
+            </div>
+            <span class="loading-icon"><img class="icon " alt="Загрузка" title="Загрузка" src="Test%201%20(second%20attempt)_files/loading.gif"></span>
+        </div>
+                <a class="see-all-link" href="https://edu.grsu.by/message/index.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">Смотреть все</div>
+                    </div>
+                </a>
+    </div>
+</li><li class="popover-region collapsed popover-region-notifications" id="nav-notification-popover-container" data-userid="2354" data-region="popover-region">
+    <div class="popover-region-toggle nav-link" data-region="popover-region-toggle" aria-role="button" aria-controls="popover-region-container-5ac24fecc68d85ac24fec9484810" aria-haspopup="true" aria-label="Показать окно без новых уведомлений" tabindex="0">
+                <i class="fa fa-bell-o" title="Переключить меню уведомлений"></i>
+        <div class="count-container hidden" data-region="count-container"></div>
+
+    </div>
+    <div id="popover-region-container-5ac24fecc68d85ac24fec9484810" class="popover-region-container" data-region="popover-region-container" aria-expanded="false" aria-hidden="true" aria-label="Окно уведомления" role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Уведомления</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <div class="hover-tooltip-container">
+                    <a class="mark-all-read-button" href="#" title="Пометить все прочитанным" data-action="mark-all-read" role="button">
+                    <span class="normal-icon"><i class="fa fa-check" alt="Пометить все прочитанным"></i></span>
+                    <span class="loading-icon"><img class="icon " alt="Загрузка" title="Загрузка" src="Test%201%20(second%20attempt)_files/loading.gif"></span>
+                </a>
+
+    <div class="hover-tooltip">
+        Пометить все прочитанным
+    </div>
+</div>
+        <div class="hover-tooltip-container">
+                    <a href="https://edu.grsu.by/message/notificationpreferences.php?userid=2354" title="Настройка уведомлений">
+                    <i class="fa fa-cog" alt="Настройка уведомлений"></i>
+                </a>
+
+    <div class="hover-tooltip">
+        Настройка уведомлений
+    </div>
+</div>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="all-notifications" data-region="all-notifications" role="log" aria-busy="false" aria-atomic="false" aria-relevant="additions"></div>
+        <div class="empty-message" tabindex="0" data-region="empty-message">Уведомлений нет</div>
+
+            </div>
+            <span class="loading-icon"><img class="icon " alt="Загрузка" title="Загрузка" src="Test%201%20(second%20attempt)_files/loading.gif"></span>
+        </div>
+                <a class="see-all-link" href="https://edu.grsu.by/message/output/popup/notifications.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">Смотреть все</div>
+                    </div>
+                </a>
+    </div>
+</li>
+    
+                    <!-- user_menu -->
+                    <li class="usermenu"><div class="action-menu moodle-actionmenu nowrap-items" id="action-menu-1" data-enhance="moodle-core-actionmenu">
+
+        <div class="menubar" id="action-menu-1-menubar" role="menubar">
+
+            <div class="dropdown d-inline">
+    <a href="#" class="dropdown-toggle" id="dropdown-1" title="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="userbutton"><span class="usertext">РОМАН ЯЗВИНСКИЙ</span><span class="avatars"><span class="avatar current"><img src="Test%201%20(second%20attempt)_files/f2.jpg" alt="Изображение пользователя РОМАН ЯЗВИНСКИЙ" title="Изображение пользователя РОМАН ЯЗВИНСКИЙ" class="userpicture" role="presentation" width="35" height="35"></span></span></span><b class="caret"></b></a>
+        <div class="dropdown-menu dropdown-menu-right menu  align-tr-br" id="action-menu-1-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-1" role="menu" data-align="tr-br">
+            <a href="https://edu.grsu.by/my/" class="dropdown-item menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1"><i class="icon fa fa-tachometer fa-fw " aria-hidden="true" title="Личный кабинет" aria-label="Личный кабинет"></i><span class="menu-action-text" id="actionmenuaction-1">Личный кабинет</span></a><div class="dropdown-divider"></div><a href="https://edu.grsu.by/user/profile.php?id=2354" class="dropdown-item menu-action" role="menuitem" data-title="profile,moodle" aria-labelledby="actionmenuaction-2"><i class="icon fa fa-user fa-fw " aria-hidden="true" title="О пользователе" aria-label="О пользователе"></i><span class="menu-action-text" id="actionmenuaction-2">О пользователе</span></a><a href="https://edu.grsu.by/grade/report/overview/index.php" class="dropdown-item menu-action" role="menuitem" data-title="grades,grades" aria-labelledby="actionmenuaction-3"><i class="icon fa fa-table fa-fw " aria-hidden="true" title="Оценки" aria-label="Оценки"></i><span class="menu-action-text" id="actionmenuaction-3">Оценки</span></a><a href="https://edu.grsu.by/message/index.php" class="dropdown-item menu-action" role="menuitem" data-title="messages,message" aria-labelledby="actionmenuaction-4"><i class="icon fa fa-comment fa-fw " aria-hidden="true" title="Сообщения" aria-label="Сообщения"></i><span class="menu-action-text" id="actionmenuaction-4">Сообщения</span></a><a href="https://edu.grsu.by/user/preferences.php" class="dropdown-item menu-action" role="menuitem" data-title="preferences,moodle" aria-labelledby="actionmenuaction-5"><i class="icon fa fa-wrench fa-fw " aria-hidden="true" title="Настройки" aria-label="Настройки"></i><span class="menu-action-text" id="actionmenuaction-5">Настройки</span></a><div class="dropdown-divider"></div><a href="https://edu.grsu.by/login/logout.php?sesskey=xgwdAcnCH1" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6"><i class="icon fa fa-sign-out fa-fw " aria-hidden="true" title="Выход" aria-label="Выход"></i><span class="menu-action-text" id="actionmenuaction-6">Выход</span></a>
+        </div>
+</div>
+
+
+        </div>
+
+</div></li>
+    
+                    <!-- Right blocks side menu -->
+                    <li id="control-sidebar-blocks"><div class="control-content"><a href="#" data-toggle="control-sidebar" class="rightsidebar-toggle" data-slide="1"><i class="fa fa-plus"></i></a></div></li>
+                </ul>
+            </div>
+    
+            <!-- search_box -->
+            <span class="hidden-md-down">
+              
+            </span>
+        </div>
+    </header>
+
+    <div id="page" class="container-fluid">
+        <header id="page-header" class="row"><div class="col-xs-12 p-a-1"><div class="card"><div class="card-block"><div class="pull-xs-right context-header-settings-menu"></div><div class="page-context-header"><div class="page-header-headings"><h1>Алгоритмы и структуры данных</h1></div></div>[Программное обеспечение информационных технологий (1-40 01 01), дневная, 2 курс, 4 семестр, 4 года]<div class="clearfix" id="page-navbar"><div class="breadcrumb-nav"><nav role="navigation">
+    <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="https://edu.grsu.by/">В начало</a></li>
+                <li class="breadcrumb-item"><a href="https://edu.grsu.by/course/index.php">Курсы</a></li>
+                <li class="breadcrumb-item"><a href="https://edu.grsu.by/course/view.php?id=10454" title="Алгоритмы и структуры данных">Алгоритмы и структуры данных</a></li>
+                <li class="breadcrumb-item"><a href="https://edu.grsu.by/course/view.php?id=10454#section-4">Блок контроля знаний</a></li>
+                <li class="breadcrumb-item"><a href="https://edu.grsu.by/mod/quiz/view.php?id=189424" title="Тест">Test 1 (second attempt)</a></li>
+    </ol>
+</nav></div><div class="breadcrumb-button"></div></div><div id="course-header"></div></div></div></div></header>
+
+        <div id="page-content" class="row">
+            <div id="region-main-box" class="col-md-9">
+                <section id="region-main">
+                    <div class="card card-block" id="yui_3_17_2_1_1522683884760_221">
+                    <span class="notifications" id="user-notifications"></span>
+                    <div role="main" id="yui_3_17_2_1_1522683884760_220"><span id="maincontent"></span><table class="generaltable generalbox quizreviewsummary"><tbody><tr><th class="cell" scope="row">Тест начат</th><td class="cell">Понедельник, 2 Апрель 2018, 18:26</td></tr><tr><th class="cell" scope="row">Состояние</th><td class="cell">Завершено</td></tr><tr><th class="cell" scope="row">Завершен</th><td class="cell">Понедельник, 2 Апрель 2018, 18:44</td></tr><tr><th class="cell" scope="row">Прошло времени</th><td class="cell">18 мин. 30 сек.</td></tr><tr><th class="cell" scope="row">Баллы</th><td class="cell">18/20</td></tr><tr><th class="cell" scope="row">Оценка</th><td class="cell"><b>90</b> из 100</td></tr><tr><th class="cell" scope="row">Отзыв</th><td class="cell"><p>Зачтено<br></p></td></tr></tbody></table><form action="https://edu.grsu.by/mod/quiz/review.php?attempt=76441" method="post" class="questionflagsaveform" autocomplete="off" id="yui_3_17_2_1_1522683884760_214"><div id="yui_3_17_2_1_1522683884760_219"><div id="q12" class="que multichoice deferredfeedback correct"><div class="info"><h3 class="no">Вопрос <span class="qno">1</span></h3><div class="state">Верно</div><div class="grade">Баллов: 1 из 1</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_17_2_1_1522683884760_24"><input name="q90233:12_:flagged" value="0" type="hidden"><input value="qaid=2427484&amp;qubaid=90233&amp;qid=502015&amp;slot=12&amp;checksum=85be459ad4546bb985627fa855fd4105&amp;sesskey=xgwdAcnCH1&amp;newstate=" class="questionflagpostdata" type="hidden">
+<input class="questionflagvalue" id="q90233:12_:flaggedcheckbox" name="q90233:12_:flagged" value="0" type="hidden"><input class="questionflagimage" src="Test%201%20(second%20attempt)_files/unflagged.png" title="Отметить этот вопрос флажком, чтобы не забыть о нём" alt="Не отмечено" type="image"><span class="questionflagtext" title="Отметить этот вопрос флажком, чтобы не забыть о нём">Отметить вопрос</span></div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Текст вопроса</h4><input name="q90233:12_:sequencecheck" value="3" type="hidden"><div class="qtext"><p><span lang="EN-US">Where is linear search effective?</span><br></p></div><div class="ablock"><div class="prompt">Выберите один ответ:</div><div class="answer"><div class="r0"><input name="q90233:12_answer" disabled="disabled" value="0" id="q90233:12_answer0" type="radio"><label for="q90233:12_answer0" class="m-l-1">a. <span lang="EN-US">in the array</span></label> </div>
+<div class="r1 correct"><input name="q90233:12_answer" disabled="disabled" value="1" id="q90233:12_answer1" checked="checked" type="radio"><label for="q90233:12_answer1" class="m-l-1">b. <span><span style="" lang="EN-US">in the array and in
+the list</span></span></label> <i class="icon fa fa-check text-success fa-fw " aria-hidden="true" title="Верно" aria-label="Верно"></i></div>
+<div class="r0"><input name="q90233:12_answer" disabled="disabled" value="2" id="q90233:12_answer2" type="radio"><label for="q90233:12_answer2" class="m-l-1">c. <span lang="EN-US">in the list</span></label> </div>
+</div></div></div><div class="outcome clearfix"><h4 class="accesshide">Отзыв</h4><div class="feedback"><div class="specificfeedback">Ваш ответ верный.</div></div></div></div></div><div id="q20" class="que multichoice deferredfeedback correct"><div class="info"><h3 class="no">Вопрос <span class="qno">2</span></h3><div class="state">Верно</div><div class="grade">Баллов: 1 из 1</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_17_2_1_1522683884760_33"><input name="q90233:20_:flagged" value="0" type="hidden"><input value="qaid=2427492&amp;qubaid=90233&amp;qid=501993&amp;slot=20&amp;checksum=593ce8d4a35e6e001589b6da437e7e22&amp;sesskey=xgwdAcnCH1&amp;newstate=" class="questionflagpostdata" type="hidden">
+<input class="questionflagvalue" id="q90233:20_:flaggedcheckbox" name="q90233:20_:flagged" value="0" type="hidden"><input class="questionflagimage" src="Test%201%20(second%20attempt)_files/unflagged.png" title="Отметить этот вопрос флажком, чтобы не забыть о нём" alt="Не отмечено" type="image"><span class="questionflagtext" title="Отметить этот вопрос флажком, чтобы не забыть о нём">Отметить вопрос</span></div></div><div class="content" id="yui_3_17_2_1_1522683884760_255"><div class="formulation clearfix" id="yui_3_17_2_1_1522683884760_254"><h4 class="accesshide">Текст вопроса</h4><input name="q90233:20_:sequencecheck" value="3" type="hidden"><div class="qtext"><p><span lang="EN-US">Complete the sentence. Algorithmic executor – is …</span><br></p></div><div class="ablock" id="yui_3_17_2_1_1522683884760_253"><div class="prompt">Выберите один ответ:</div><div class="answer" id="yui_3_17_2_1_1522683884760_252"><div class="r0 correct" id="yui_3_17_2_1_1522683884760_251"><input name="q90233:20_answer" disabled="disabled" value="0" id="q90233:20_answer0" checked="checked" type="radio"><label for="q90233:20_answer0" class="m-l-1">a. <span><span style="" lang="EN-US">some object that can
+execute a specific set of commands</span></span></label> <i class="icon fa fa-check text-success fa-fw " aria-hidden="true" title="Верно" aria-label="Верно"></i></div>
+<div class="r1"><input name="q90233:20_answer" disabled="disabled" value="1" id="q90233:20_answer1" type="radio"><label for="q90233:20_answer1" class="m-l-1">b. <span lang="EN-US">a set of all commands that can be executed</span></label> </div>
+<div class="r0"><input name="q90233:20_answer" disabled="disabled" value="2" id="q90233:20_answer2" type="radio"><label for="q90233:20_answer2" class="m-l-1">c. area in which a person works</label> </div>
+<div class="r1"><input name="q90233:20_answer" disabled="disabled" value="3" id="q90233:20_answer3" type="radio"><label for="q90233:20_answer3" class="m-l-1">d. the constructing character strings</label> </div>
+</div></div></div><div class="outcome clearfix"><h4 class="accesshide">Отзыв</h4><div class="feedback"><div class="specificfeedback">Ваш ответ верный.</div></div></div></div></div><div id="q10" class="que multichoice deferredfeedback correct"><div class="info"><h3 class="no">Вопрос <span class="qno">3</span></h3><div class="state">Верно</div><div class="grade">Баллов: 1 из 1</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_17_2_1_1522683884760_42"><input name="q90233:10_:flagged" value="0" type="hidden"><input value="qaid=2427482&amp;qubaid=90233&amp;qid=502013&amp;slot=10&amp;checksum=a9cf21cce9a6cc026994cd777bbc39dc&amp;sesskey=xgwdAcnCH1&amp;newstate=" class="questionflagpostdata" type="hidden">
+<input class="questionflagvalue" id="q90233:10_:flaggedcheckbox" name="q90233:10_:flagged" value="0" type="hidden"><input class="questionflagimage" src="Test%201%20(second%20attempt)_files/unflagged.png" title="Отметить этот вопрос флажком, чтобы не забыть о нём" alt="Не отмечено" type="image"><span class="questionflagtext" title="Отметить этот вопрос флажком, чтобы не забыть о нём">Отметить вопрос</span></div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Текст вопроса</h4><input name="q90233:10_:sequencecheck" value="3" type="hidden"><div class="qtext"><p><span lang="EN-US">What is the idea of the algorithm QuickSort?</span><br></p></div><div class="ablock"><div class="prompt">Выберите один ответ:</div><div class="answer"><div class="r0"><input name="q90233:10_answer" disabled="disabled" value="0" id="q90233:10_answer0" type="radio"><label for="q90233:10_answer0" class="m-l-1">a. <span lang="EN-US">choice of 1,2, ... n element for comparison with
+the rest</span></label> </div>
+<div class="r1"><input name="q90233:10_answer" disabled="disabled" value="1" id="q90233:10_answer1" type="radio"><label for="q90233:10_answer1" class="m-l-1">b. <span lang="EN-US">exchange of places between neighboring elements</span></label> </div>
+<div class="r0 correct"><input name="q90233:10_answer" disabled="disabled" value="2" id="q90233:10_answer2" checked="checked" type="radio"><label for="q90233:10_answer2" class="m-l-1">c. <span><span style="" lang="EN-US">splitting the keys in
+relation to the selected one</span></span></label> <i class="icon fa fa-check text-success fa-fw " aria-hidden="true" title="Верно" aria-label="Верно"></i></div>
+</div></div></div><div class="outcome clearfix"><h4 class="accesshide">Отзыв</h4><div class="feedback"><div class="specificfeedback">Ваш ответ верный.</div></div></div></div></div><div id="q6" class="que multichoice deferredfeedback correct"><div class="info"><h3 class="no">Вопрос <span class="qno">4</span></h3><div class="state">Верно</div><div class="grade">Баллов: 1 из 1</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_17_2_1_1522683884760_51"><input name="q90233:6_:flagged" value="0" type="hidden"><input value="qaid=2427478&amp;qubaid=90233&amp;qid=502002&amp;slot=6&amp;checksum=e27cf8ad8c313d50f06da66fc122b303&amp;sesskey=xgwdAcnCH1&amp;newstate=" class="questionflagpostdata" type="hidden">
+<input class="questionflagvalue" id="q90233:6_:flaggedcheckbox" name="q90233:6_:flagged" value="0" type="hidden"><input class="questionflagimage" src="Test%201%20(second%20attempt)_files/unflagged.png" title="Отметить этот вопрос флажком, чтобы не забыть о нём" alt="Не отмечено" type="image"><span class="questionflagtext" title="Отметить этот вопрос флажком, чтобы не забыть о нём">Отметить вопрос</span></div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Текст вопроса</h4><input name="q90233:6_:sequencecheck" value="3" type="hidden"><div class="qtext"><p><span lang="EN-US">The data structure is</span><br></p></div><div class="ablock"><div class="prompt">Выберите один ответ:</div><div class="answer"><div class="r0"><input name="q90233:6_answer" disabled="disabled" value="0" id="q90233:6_answer0" type="radio"><label for="q90233:6_answer0" class="m-l-1">a. <span lang="EN-US">a set of rules and constraints
+that determine the relationship between individual groups of data</span></label> </div>
+<div class="r1"><input name="q90233:6_answer" disabled="disabled" value="1" id="q90233:6_answer1" type="radio"><label for="q90233:6_answer1" class="m-l-1">b. <span lang="EN-US">some hierarchy of data</span></label> </div>
+<div class="r0"><input name="q90233:6_answer" disabled="disabled" value="2" id="q90233:6_answer2" type="radio"><label for="q90233:6_answer2" class="m-l-1">c. <span lang="EN-US">a set of rules and
+constraints that determine the relationship between individual data elements</span></label> </div>
+<div class="r1 correct"><input name="q90233:6_answer" disabled="disabled" value="3" id="q90233:6_answer3" checked="checked" type="radio"><label for="q90233:6_answer3" class="m-l-1">d. <span><span style="" lang="EN-US">a
+set of rules and constraints that determine the relationship between individual
+elements and groups of data</span></span></label> <i class="icon fa fa-check text-success fa-fw " aria-hidden="true" title="Верно" aria-label="Верно"></i></div>
+</div></div></div><div class="outcome clearfix"><h4 class="accesshide">Отзыв</h4><div class="feedback"><div class="specificfeedback">Ваш ответ верный.</div></div></div></div></div><div id="q3" class="que multichoice deferredfeedback correct"><div class="info"><h3 class="no">Вопрос <span class="qno">5</span></h3><div class="state">Верно</div><div class="grade">Баллов: 1 из 1</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_17_2_1_1522683884760_60"><input name="q90233:3_:flagged" value="0" type="hidden"><input value="qaid=2427475&amp;qubaid=90233&amp;qid=502009&amp;slot=3&amp;checksum=7ced973f2bdd938571f8d22ef206c2a5&amp;sesskey=xgwdAcnCH1&amp;newstate=" class="questionflagpostdata" type="hidden">
+<input class="questionflagvalue" id="q90233:3_:flaggedcheckbox" name="q90233:3_:flagged" value="0" type="hidden"><input class="questionflagimage" src="Test%201%20(second%20attempt)_files/unflagged.png" title="Отметить этот вопрос флажком, чтобы не забыть о нём" alt="Не отмечено" type="image"><span class="questionflagtext" title="Отметить этот вопрос флажком, чтобы не забыть о нём">Отметить вопрос</span></div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Текст вопроса</h4><input name="q90233:3_:sequencecheck" value="3" type="hidden"><div class="qtext"><p><span lang="EN-US">If the function f(n)=7+1/n, then the following
+equality holds</span><br></p></div><div class="ablock"><div class="prompt">Выберите один ответ:</div><div class="answer"><div class="r0"><input name="q90233:3_answer" disabled="disabled" value="0" id="q90233:3_answer0" type="radio"><label for="q90233:3_answer0" class="m-l-1">a. <span lang="EN-US">f(n)=</span>Θ<span lang="EN-US">(n<sup>2</sup>)</span></label> </div>
+<div class="r1"><input name="q90233:3_answer" disabled="disabled" value="1" id="q90233:3_answer1" type="radio"><label for="q90233:3_answer1" class="m-l-1">b. <span lang="EN-US">f(n)=</span>Θ<span lang="EN-US">(7)</span></label> </div>
+<div class="r0 correct"><input name="q90233:3_answer" disabled="disabled" value="2" id="q90233:3_answer2" checked="checked" type="radio"><label for="q90233:3_answer2" class="m-l-1">c. <span><span style="" lang="EN-US">f(n)=</span>Θ<span style="" lang="EN-US">(1)</span></span></label> <i class="icon fa fa-check text-success fa-fw " aria-hidden="true" title="Верно" aria-label="Верно"></i></div>
+<div class="r1"><input name="q90233:3_answer" disabled="disabled" value="3" id="q90233:3_answer3" type="radio"><label for="q90233:3_answer3" class="m-l-1">d. <span lang="EN-US">f(n)=</span>Θ<span lang="EN-US">(n)</span></label> </div>
+</div></div></div><div class="outcome clearfix"><h4 class="accesshide">Отзыв</h4><div class="feedback"><div class="specificfeedback">Ваш ответ верный.</div></div></div></div></div><div id="q15" class="que multichoice deferredfeedback correct"><div class="info"><h3 class="no">Вопрос <span class="qno">6</span></h3><div class="state">Верно</div><div class="grade">Баллов: 1 из 1</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_17_2_1_1522683884760_69"><input name="q90233:15_:flagged" value="0" type="hidden"><input value="qaid=2427487&amp;qubaid=90233&amp;qid=501991&amp;slot=15&amp;checksum=8c000f7a231ca0ca9174138a87f8ea93&amp;sesskey=xgwdAcnCH1&amp;newstate=" class="questionflagpostdata" type="hidden">
+<input class="questionflagvalue" id="q90233:15_:flaggedcheckbox" name="q90233:15_:flagged" value="0" type="hidden"><input class="questionflagimage" src="Test%201%20(second%20attempt)_files/unflagged.png" title="Отметить этот вопрос флажком, чтобы не забыть о нём" alt="Не отмечено" type="image"><span class="questionflagtext" title="Отметить этот вопрос флажком, чтобы не забыть о нём">Отметить вопрос</span></div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Текст вопроса</h4><input name="q90233:15_:sequencecheck" value="3" type="hidden"><div class="qtext"><p>What is <span lang="EN-US">an </span>algorithm?<br></p></div><div class="ablock"><div class="prompt">Выберите один ответ:</div><div class="answer"><div class="r0"><input name="q90233:15_answer" disabled="disabled" value="0" id="q90233:15_answer0" type="radio"><label for="q90233:15_answer0" class="m-l-1">a. <span lang="EN-US">the sequence of commands
+for any artist</span></label> </div>
+<div class="r1 correct"><input name="q90233:15_answer" disabled="disabled" value="1" id="q90233:15_answer1" checked="checked" type="radio"><label for="q90233:15_answer1" class="m-l-1">b. <span><span style="" lang="EN-US">the finite set of
+commands that have a certain sequence and which are clear to the performer and
+accurate</span></span></label> <i class="icon fa fa-check text-success fa-fw " aria-hidden="true" title="Верно" aria-label="Верно"></i></div>
+<div class="r0"><input name="q90233:15_answer" disabled="disabled" value="2" id="q90233:15_answer2" type="radio"><label for="q90233:15_answer2" class="m-l-1">c. the solution of the problem</label> </div>
+<div class="r1"><input name="q90233:15_answer" disabled="disabled" value="3" id="q90233:15_answer3" type="radio"><label for="q90233:15_answer3" class="m-l-1">d. the process of solving a problem, divided into successive steps</label> </div>
+</div></div></div><div class="outcome clearfix"><h4 class="accesshide">Отзыв</h4><div class="feedback"><div class="specificfeedback">Ваш ответ верный.</div></div></div></div></div><div id="q2" class="que multichoice deferredfeedback correct"><div class="info"><h3 class="no">Вопрос <span class="qno">7</span></h3><div class="state">Верно</div><div class="grade">Баллов: 1 из 1</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_17_2_1_1522683884760_78"><input name="q90233:2_:flagged" value="0" type="hidden"><input value="qaid=2427474&amp;qubaid=90233&amp;qid=502003&amp;slot=2&amp;checksum=adda32b6ec56e225461226bdaef1691f&amp;sesskey=xgwdAcnCH1&amp;newstate=" class="questionflagpostdata" type="hidden">
+<input class="questionflagvalue" id="q90233:2_:flaggedcheckbox" name="q90233:2_:flagged" value="0" type="hidden"><input class="questionflagimage" src="Test%201%20(second%20attempt)_files/unflagged.png" title="Отметить этот вопрос флажком, чтобы не забыть о нём" alt="Не отмечено" type="image"><span class="questionflagtext" title="Отметить этот вопрос флажком, чтобы не забыть о нём">Отметить вопрос</span></div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Текст вопроса</h4><input name="q90233:2_:sequencecheck" value="3" type="hidden"><div class="qtext"><p><span lang="EN-US">The linear list in which only the last element
+is available is called</span><br></p></div><div class="ablock"><div class="prompt">Выберите один ответ:</div><div class="answer"><div class="r0 correct"><input name="q90233:2_answer" disabled="disabled" value="0" id="q90233:2_answer0" checked="checked" type="radio"><label for="q90233:2_answer0" class="m-l-1">a. <span><span style="" lang="EN-US">the stack</span></span></label> <i class="icon fa fa-check text-success fa-fw " aria-hidden="true" title="Верно" aria-label="Верно"></i></div>
+<div class="r1"><input name="q90233:2_answer" disabled="disabled" value="1" id="q90233:2_answer1" type="radio"><label for="q90233:2_answer1" class="m-l-1">b. <span lang="EN-US">deck</span></label> </div>
+<div class="r0"><input name="q90233:2_answer" disabled="disabled" value="2" id="q90233:2_answer2" type="radio"><label for="q90233:2_answer2" class="m-l-1">c. <span lang="EN-US">an array</span></label> </div>
+<div class="r1"><input name="q90233:2_answer" disabled="disabled" value="3" id="q90233:2_answer3" type="radio"><label for="q90233:2_answer3" class="m-l-1">d. <span lang="EN-US">the queue</span></label> </div>
+<div class="r0"><input name="q90233:2_answer" disabled="disabled" value="4" id="q90233:2_answer4" type="radio"><label for="q90233:2_answer4" class="m-l-1">e. <span lang="EN-US">ring</span></label> </div>
+</div></div></div><div class="outcome clearfix"><h4 class="accesshide">Отзыв</h4><div class="feedback"><div class="specificfeedback">Ваш ответ верный.</div></div></div></div></div><div id="q19" class="que multichoice deferredfeedback correct"><div class="info"><h3 class="no">Вопрос <span class="qno">8</span></h3><div class="state">Верно</div><div class="grade">Баллов: 1 из 1</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_17_2_1_1522683884760_87"><input name="q90233:19_:flagged" value="0" type="hidden"><input value="qaid=2427491&amp;qubaid=90233&amp;qid=501999&amp;slot=19&amp;checksum=3a91ebca9897b2cea7f010976a9e63d9&amp;sesskey=xgwdAcnCH1&amp;newstate=" class="questionflagpostdata" type="hidden">
+<input class="questionflagvalue" id="q90233:19_:flaggedcheckbox" name="q90233:19_:flagged" value="0" type="hidden"><input class="questionflagimage" src="Test%201%20(second%20attempt)_files/unflagged.png" title="Отметить этот вопрос флажком, чтобы не забыть о нём" alt="Не отмечено" type="image"><span class="questionflagtext" title="Отметить этот вопрос флажком, чтобы не забыть о нём">Отметить вопрос</span></div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Текст вопроса</h4><input name="q90233:19_:sequencecheck" value="3" type="hidden"><div class="qtext"><p><span lang="EN-US">The algorithm is called linear:</span><br></p></div><div class="ablock"><div class="prompt">Выберите один ответ:</div><div class="answer"><div class="r0"><input name="q90233:19_answer" disabled="disabled" value="0" id="q90233:19_answer0" type="radio"><label for="q90233:19_answer0" class="m-l-1">a. <span lang="EN-US">if it is composed in such a way that its
+implementation implies repeated repetition of the same actions</span></label> </div>
+<div class="r1 correct"><input name="q90233:19_answer" disabled="disabled" value="1" id="q90233:19_answer1" checked="checked" type="radio"><label for="q90233:19_answer1" class="m-l-1">b. <span><span style="" lang="EN-US">if its commands are
+executed in the order of their natural following one after the other,
+regardless of any conditions</span></span></label> <i class="icon fa fa-check text-success fa-fw " aria-hidden="true" title="Верно" aria-label="Верно"></i></div>
+<div class="r0"><input name="q90233:19_answer" disabled="disabled" value="2" id="q90233:19_answer2" type="radio"><label for="q90233:19_answer2" class="m-l-1">c. <span lang="EN-US">if it is presented in tabular form</span></label> </div>
+<div class="r1"><input name="q90233:19_answer" disabled="disabled" value="3" id="q90233:19_answer3" type="radio"><label for="q90233:19_answer3" class="m-l-1">d. <span lang="EN-US">if the course of its implementation depends on
+the truth of certain conditions</span></label> </div>
+<div class="r0"><input name="q90233:19_answer" disabled="disabled" value="4" id="q90233:19_answer4" type="radio"><label for="q90233:19_answer4" class="m-l-1">e. <span lang="EN-US">if it includes an subsidiary algorithm</span></label> </div>
+</div></div></div><div class="outcome clearfix"><h4 class="accesshide">Отзыв</h4><div class="feedback"><div class="specificfeedback">Ваш ответ верный.</div></div></div></div></div><div id="q5" class="que multichoice deferredfeedback correct"><div class="info"><h3 class="no">Вопрос <span class="qno">9</span></h3><div class="state">Верно</div><div class="grade">Баллов: 1 из 1</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_17_2_1_1522683884760_96"><input name="q90233:5_:flagged" value="0" type="hidden"><input value="qaid=2427477&amp;qubaid=90233&amp;qid=502005&amp;slot=5&amp;checksum=cbc0d6dda0a4cbb2fb82f6b3012cfb9e&amp;sesskey=xgwdAcnCH1&amp;newstate=" class="questionflagpostdata" type="hidden">
+<input class="questionflagvalue" id="q90233:5_:flaggedcheckbox" name="q90233:5_:flagged" value="0" type="hidden"><input class="questionflagimage" src="Test%201%20(second%20attempt)_files/unflagged.png" title="Отметить этот вопрос флажком, чтобы не забыть о нём" alt="Не отмечено" type="image"><span class="questionflagtext" title="Отметить этот вопрос флажком, чтобы не забыть о нём">Отметить вопрос</span></div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Текст вопроса</h4><input name="q90233:5_:sequencecheck" value="3" type="hidden"><div class="qtext"><p><span lang="EN-US">If you delete an item from the ring list ...</span><br></p></div><div class="ablock"><div class="prompt">Выберите один ответ:</div><div class="answer"><div class="r0"><input name="q90233:5_answer" disabled="disabled" value="0" id="q90233:5_answer0" type="radio"><label for="q90233:5_answer0" class="m-l-1">a. <span lang="EN-US">a hole is created in the list</span></label> </div>
+<div class="r1"><input name="q90233:5_answer" disabled="disabled" value="1" id="q90233:5_answer1" type="radio"><label for="q90233:5_answer1" class="m-l-1">b. <span lang="EN-US">the list is broken</span></label> </div>
+<div class="r0 correct"><input name="q90233:5_answer" disabled="disabled" value="2" id="q90233:5_answer2" checked="checked" type="radio"><label for="q90233:5_answer2" class="m-l-1">c. <span><span style="" lang="EN-US">the list becomes
+shorter by one element</span></span></label> <i class="icon fa fa-check text-success fa-fw " aria-hidden="true" title="Верно" aria-label="Верно"></i></div>
+</div></div></div><div class="outcome clearfix"><h4 class="accesshide">Отзыв</h4><div class="feedback"><div class="specificfeedback">Ваш ответ верный.</div></div></div></div></div><div id="q8" class="que multichoice deferredfeedback correct"><div class="info"><h3 class="no">Вопрос <span class="qno">10</span></h3><div class="state">Верно</div><div class="grade">Баллов: 1 из 1</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_17_2_1_1522683884760_105"><input name="q90233:8_:flagged" value="0" type="hidden"><input value="qaid=2427480&amp;qubaid=90233&amp;qid=502011&amp;slot=8&amp;checksum=63461180eb42d9d25edbde29b08ac6a8&amp;sesskey=xgwdAcnCH1&amp;newstate=" class="questionflagpostdata" type="hidden">
+<input class="questionflagvalue" id="q90233:8_:flaggedcheckbox" name="q90233:8_:flagged" value="0" type="hidden"><input class="questionflagimage" src="Test%201%20(second%20attempt)_files/unflagged.png" title="Отметить этот вопрос флажком, чтобы не забыть о нём" alt="Не отмечено" type="image"><span class="questionflagtext" title="Отметить этот вопрос флажком, чтобы не забыть о нём">Отметить вопрос</span></div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Текст вопроса</h4><input name="q90233:8_:sequencecheck" value="3" type="hidden"><div class="qtext"><p><span lang="EN-US">How
+many additional variables are needed in bubble sorting in addition to an array
+containing elements?</span><br></p></div><div class="ablock"><div class="prompt">Выберите один ответ:</div><div class="answer"><div class="r0"><input name="q90233:8_answer" disabled="disabled" value="0" id="q90233:8_answer0" type="radio"><label for="q90233:8_answer0" class="m-l-1">a. <span lang="EN-US">0 (not
+necessary)</span></label> </div>
+<div class="r1 correct"><input name="q90233:8_answer" disabled="disabled" value="1" id="q90233:8_answer1" checked="checked" type="radio"><label for="q90233:8_answer1" class="m-l-1">b. <span><span style="" lang="EN-US">1 element</span></span></label> <i class="icon fa fa-check text-success fa-fw " aria-hidden="true" title="Верно" aria-label="Верно"></i></div>
+<div class="r0"><input name="q90233:8_answer" disabled="disabled" value="2" id="q90233:8_answer2" type="radio"><label for="q90233:8_answer2" class="m-l-1">c. <span lang="EN-US">n variables
+(as many as the elements in the array)</span></label> </div>
+</div></div></div><div class="outcome clearfix"><h4 class="accesshide">Отзыв</h4><div class="feedback"><div class="specificfeedback">Ваш ответ верный.</div></div></div></div></div><div id="q18" class="que multichoice deferredfeedback incorrect"><div class="info" id="yui_3_17_2_1_1522683884760_223"><h3 class="no">Вопрос <span class="qno">11</span></h3><div class="state">Неверно</div><div class="grade">Баллов: 0 из 1</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_17_2_1_1522683884760_114"><input name="q90233:18_:flagged" value="0" type="hidden"><input value="qaid=2427490&amp;qubaid=90233&amp;qid=501992&amp;slot=18&amp;checksum=fe94fe38e54d881299772b6366e4be10&amp;sesskey=xgwdAcnCH1&amp;newstate=" class="questionflagpostdata" type="hidden">
+<input class="questionflagvalue" id="q90233:18_:flaggedcheckbox" name="q90233:18_:flagged" value="0" type="hidden"><input class="questionflagimage" src="Test%201%20(second%20attempt)_files/unflagged.png" title="Отметить этот вопрос флажком, чтобы не забыть о нём" alt="Не отмечено" type="image"><span class="questionflagtext" title="Отметить этот вопрос флажком, чтобы не забыть о нём" id="yui_3_17_2_1_1522683884760_222">Отметить вопрос</span></div></div><div class="content" id="yui_3_17_2_1_1522683884760_218"><div class="formulation clearfix" id="yui_3_17_2_1_1522683884760_217"><h4 class="accesshide">Текст вопроса</h4><input name="q90233:18_:sequencecheck" value="3" type="hidden"><div class="qtext"><p><span lang="EN-US">Given the sequence of
+commands: face north; go to the left; turn right; go straight; stop. What
+property of the algorithm does not work for this sequence of commands, if the
+executor is you?</span><br></p></div><div class="ablock" id="yui_3_17_2_1_1522683884760_243"><div class="prompt">Выберите один ответ:</div><div class="answer" id="yui_3_17_2_1_1522683884760_242"><div class="r0"><input name="q90233:18_answer" disabled="disabled" value="0" id="q90233:18_answer0" type="radio"><label for="q90233:18_answer0" class="m-l-1">a. <span><span style="" lang="EN-US">accuracy</span></span></label> </div>
+<div class="r1"><input name="q90233:18_answer" disabled="disabled" value="1" id="q90233:18_answer1" type="radio"><label for="q90233:18_answer1" class="m-l-1">b. finite</label> </div>
+<div class="r0 incorrect" id="yui_3_17_2_1_1522683884760_241"><input name="q90233:18_answer" disabled="disabled" value="2" id="q90233:18_answer2" checked="checked" type="radio"><label for="q90233:18_answer2" class="m-l-1">c. <span lang="EN-US">intelligibility</span></label> <i class="icon fa fa-remove text-danger fa-fw " aria-hidden="true" title="Неверно" aria-label="Неверно"></i></div>
+<div class="r1"><input name="q90233:18_answer" disabled="disabled" value="3" id="q90233:18_answer3" type="radio"><label for="q90233:18_answer3" class="m-l-1">d. discreteness</label> </div>
+</div></div></div><div class="outcome clearfix" id="yui_3_17_2_1_1522683884760_244"><h4 class="accesshide">Отзыв</h4><div class="feedback"><div class="specificfeedback">Ваш ответ неправильный.</div></div></div></div></div><div id="q14" class="que multichoice deferredfeedback correct"><div class="info"><h3 class="no">Вопрос <span class="qno">12</span></h3><div class="state">Верно</div><div class="grade">Баллов: 1 из 1</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_17_2_1_1522683884760_123"><input name="q90233:14_:flagged" value="0" type="hidden"><input value="qaid=2427486&amp;qubaid=90233&amp;qid=501997&amp;slot=14&amp;checksum=df3a1321e06bd25aa2a834b45e8f2cf8&amp;sesskey=xgwdAcnCH1&amp;newstate=" class="questionflagpostdata" type="hidden">
+<input class="questionflagvalue" id="q90233:14_:flaggedcheckbox" name="q90233:14_:flagged" value="0" type="hidden"><input class="questionflagimage" src="Test%201%20(second%20attempt)_files/unflagged.png" title="Отметить этот вопрос флажком, чтобы не забыть о нём" alt="Не отмечено" type="image"><span class="questionflagtext" title="Отметить этот вопрос флажком, чтобы не забыть о нём">Отметить вопрос</span></div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Текст вопроса</h4><input name="q90233:14_:sequencecheck" value="3" type="hidden"><div class="qtext"><p><span lang="EN-US">The</span><span lang="EN-US"> algorithm is given: 1) Open the book on page 3;
+2) make photocopies of all pages of 23 inclusive. This algorithm is:</span><br></p></div><div class="ablock"><div class="prompt">Выберите один ответ:</div><div class="answer"><div class="r0 correct"><input name="q90233:14_answer" disabled="disabled" value="0" id="q90233:14_answer0" checked="checked" type="radio"><label for="q90233:14_answer0" class="m-l-1">a. <span><span style="" lang="EN-US">branching</span></span></label> <i class="icon fa fa-check text-success fa-fw " aria-hidden="true" title="Верно" aria-label="Верно"></i></div>
+<div class="r1"><input name="q90233:14_answer" disabled="disabled" value="1" id="q90233:14_answer1" type="radio"><label for="q90233:14_answer1" class="m-l-1">b. <span lang="EN-US">linear</span></label> </div>
+<div class="r0"><input name="q90233:14_answer" disabled="disabled" value="2" id="q90233:14_answer2" type="radio"><label for="q90233:14_answer2" class="m-l-1">c. <span lang="EN-US">cyclic</span></label> </div>
+<div class="r1"><input name="q90233:14_answer" disabled="disabled" value="3" id="q90233:14_answer3" type="radio"><label for="q90233:14_answer3" class="m-l-1">d. <span lang="EN-US">can not be determined</span></label> </div>
+</div></div></div><div class="outcome clearfix"><h4 class="accesshide">Отзыв</h4><div class="feedback"><div class="specificfeedback">Ваш ответ верный.</div></div></div></div></div><div id="q9" class="que multichoice deferredfeedback correct"><div class="info"><h3 class="no">Вопрос <span class="qno">13</span></h3><div class="state">Верно</div><div class="grade">Баллов: 1 из 1</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_17_2_1_1522683884760_132"><input name="q90233:9_:flagged" value="0" type="hidden"><input value="qaid=2427481&amp;qubaid=90233&amp;qid=502020&amp;slot=9&amp;checksum=0846e6b50a19fe5809fbe68bc60b6e16&amp;sesskey=xgwdAcnCH1&amp;newstate=" class="questionflagpostdata" type="hidden">
+<input class="questionflagvalue" id="q90233:9_:flaggedcheckbox" name="q90233:9_:flagged" value="0" type="hidden"><input class="questionflagimage" src="Test%201%20(second%20attempt)_files/unflagged.png" title="Отметить этот вопрос флажком, чтобы не забыть о нём" alt="Не отмечено" type="image"><span class="questionflagtext" title="Отметить этот вопрос флажком, чтобы не забыть о нём">Отметить вопрос</span></div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Текст вопроса</h4><input name="q90233:9_:sequencecheck" value="3" type="hidden"><div class="qtext"><p><span lang="EN-US">Which of the sorting algorithms is an algorithm,
+the sorting in which is not performed "in place"?</span><br></p></div><div class="ablock"><div class="prompt">Выберите один ответ:</div><div class="answer"><div class="r0"><input name="q90233:9_answer" disabled="disabled" value="0" id="q90233:9_answer0" type="radio"><label for="q90233:9_answer0" class="m-l-1">a. <span lang="EN-US">Insertion sort</span></label> </div>
+<div class="r1"><input name="q90233:9_answer" disabled="disabled" value="1" id="q90233:9_answer1" type="radio"><label for="q90233:9_answer1" class="m-l-1">b. <span lang="EN-US">Quicksort</span></label> </div>
+<div class="r0 correct"><input name="q90233:9_answer" disabled="disabled" value="2" id="q90233:9_answer2" checked="checked" type="radio"><label for="q90233:9_answer2" class="m-l-1">c. <span><span style="" lang="EN-US">Merge sort</span></span></label> <i class="icon fa fa-check text-success fa-fw " aria-hidden="true" title="Верно" aria-label="Верно"></i></div>
+<div class="r1"><input name="q90233:9_answer" disabled="disabled" value="3" id="q90233:9_answer3" type="radio"><label for="q90233:9_answer3" class="m-l-1">d. <span lang="EN-US">selection sort</span></label> </div>
+</div></div></div><div class="outcome clearfix"><h4 class="accesshide">Отзыв</h4><div class="feedback"><div class="specificfeedback">Ваш ответ верный.</div></div></div></div></div><div id="q11" class="que multichoice deferredfeedback correct"><div class="info"><h3 class="no">Вопрос <span class="qno">14</span></h3><div class="state">Верно</div><div class="grade">Баллов: 1 из 1</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_17_2_1_1522683884760_141"><input name="q90233:11_:flagged" value="0" type="hidden"><input value="qaid=2427483&amp;qubaid=90233&amp;qid=502016&amp;slot=11&amp;checksum=e4d551c39c1e81861e8d8bc935c1744c&amp;sesskey=xgwdAcnCH1&amp;newstate=" class="questionflagpostdata" type="hidden">
+<input class="questionflagvalue" id="q90233:11_:flaggedcheckbox" name="q90233:11_:flagged" value="0" type="hidden"><input class="questionflagimage" src="Test%201%20(second%20attempt)_files/unflagged.png" title="Отметить этот вопрос флажком, чтобы не забыть о нём" alt="Не отмечено" type="image"><span class="questionflagtext" title="Отметить этот вопрос флажком, чтобы не забыть о нём">Отметить вопрос</span></div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Текст вопроса</h4><input name="q90233:11_:sequencecheck" value="3" type="hidden"><div class="qtext"><p><span lang="EN-US"><span lang="EN-US"><span lang="EN-US">Which search is more effective?</span></span></span><br></p></div><div class="ablock"><div class="prompt">Выберите один ответ:</div><div class="answer"><div class="r0"><input name="q90233:11_answer" disabled="disabled" value="0" id="q90233:11_answer0" type="radio"><label for="q90233:11_answer0" class="m-l-1">a. <span><span style="" lang="EN-US"><span lang="EN-US">no difference</span></span></span></label> </div>
+<div class="r1 correct"><input name="q90233:11_answer" disabled="disabled" value="1" id="q90233:11_answer1" checked="checked" type="radio"><label for="q90233:11_answer1" class="m-l-1">b. <span lang="EN-US"><span><span style="" lang="EN-US">binary</span></span></span></label> <i class="icon fa fa-check text-success fa-fw " aria-hidden="true" title="Верно" aria-label="Верно"></i></div>
+<div class="r0"><input name="q90233:11_answer" disabled="disabled" value="2" id="q90233:11_answer2" type="radio"><label for="q90233:11_answer2" class="m-l-1">c. <span lang="EN-US"><span lang="EN-US">linear</span></span></label> </div>
+</div></div></div><div class="outcome clearfix"><h4 class="accesshide">Отзыв</h4><div class="feedback"><div class="specificfeedback">Ваш ответ верный.</div></div></div></div></div><div id="q17" class="que multichoice deferredfeedback correct"><div class="info"><h3 class="no">Вопрос <span class="qno">15</span></h3><div class="state">Верно</div><div class="grade">Баллов: 1 из 1</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_17_2_1_1522683884760_150"><input name="q90233:17_:flagged" value="0" type="hidden"><input value="qaid=2427489&amp;qubaid=90233&amp;qid=502000&amp;slot=17&amp;checksum=9c0b57301d723d25af9a1253b36c2fcf&amp;sesskey=xgwdAcnCH1&amp;newstate=" class="questionflagpostdata" type="hidden">
+<input class="questionflagvalue" id="q90233:17_:flaggedcheckbox" name="q90233:17_:flagged" value="0" type="hidden"><input class="questionflagimage" src="Test%201%20(second%20attempt)_files/unflagged.png" title="Отметить этот вопрос флажком, чтобы не забыть о нём" alt="Не отмечено" type="image"><span class="questionflagtext" title="Отметить этот вопрос флажком, чтобы не забыть о нём">Отметить вопрос</span></div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Текст вопроса</h4><input name="q90233:17_:sequencecheck" value="3" type="hidden"><div class="qtext"><p><span lang="EN-US">The procedure is called</span><br></p></div><div class="ablock"><div class="prompt">Выберите один ответ:</div><div class="answer"><div class="r0"><input name="q90233:17_answer" disabled="disabled" value="0" id="q90233:17_answer0" type="radio"><label for="q90233:17_answer0" class="m-l-1">a. <span lang="EN-US">the arbitrary fragment of the program</span></label> </div>
+<div class="r1"><input name="q90233:17_answer" disabled="disabled" value="1" id="q90233:17_answer1" type="radio"><label for="q90233:17_answer1" class="m-l-1">b. <span lang="EN-US">a set of operators following the operator in the
+program</span></label> </div>
+<div class="r0"><input name="q90233:17_answer" disabled="disabled" value="2" id="q90233:17_answer2" type="radio"><label for="q90233:17_answer2" class="m-l-1">c. <span lang="EN-US">the independent software module</span></label> </div>
+<div class="r1 correct"><input name="q90233:17_answer" disabled="disabled" value="3" id="q90233:17_answer3" checked="checked" type="radio"><label for="q90233:17_answer3" class="m-l-1">d. <span><span style=""><span style="" lang="EN-US">the part of the
+program, which serves to solve some subsidiary</span></span><span style="" lang="EN-US"> problem</span></span></label> <i class="icon fa fa-check text-success fa-fw " aria-hidden="true" title="Верно" aria-label="Верно"></i></div>
+<div class="r0"><input name="q90233:17_answer" disabled="disabled" value="4" id="q90233:17_answer4" type="radio"><label for="q90233:17_answer4" class="m-l-1">e. <span lang="EN-US">the part of the program, containing repeatedly
+executed commands</span></label> </div>
+</div></div></div><div class="outcome clearfix"><h4 class="accesshide">Отзыв</h4><div class="feedback"><div class="specificfeedback">Ваш ответ верный.</div></div></div></div></div><div id="q13" class="que multichoice deferredfeedback incorrect"><div class="info"><h3 class="no">Вопрос <span class="qno">16</span></h3><div class="state">Неверно</div><div class="grade">Баллов: 0 из 1</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_17_2_1_1522683884760_159"><input name="q90233:13_:flagged" value="0" type="hidden"><input value="qaid=2427485&amp;qubaid=90233&amp;qid=502014&amp;slot=13&amp;checksum=4d3294b18c9059311596cdefdd58555b&amp;sesskey=xgwdAcnCH1&amp;newstate=" class="questionflagpostdata" type="hidden">
+<input class="questionflagvalue" id="q90233:13_:flaggedcheckbox" name="q90233:13_:flagged" value="0" type="hidden"><input class="questionflagimage" src="Test%201%20(second%20attempt)_files/unflagged.png" title="Отметить этот вопрос флажком, чтобы не забыть о нём" alt="Не отмечено" type="image"><span class="questionflagtext" title="Отметить этот вопрос флажком, чтобы не забыть о нём">Отметить вопрос</span></div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Текст вопроса</h4><input name="q90233:13_:sequencecheck" value="3" type="hidden"><div class="qtext"><p><span lang="EN-US">The array is sorted by a "bubble"
+method. How many passes through the array are the "lightest" elements
+in the array at the top?</span><br></p></div><div class="ablock"><div class="prompt">Выберите один ответ:</div><div class="answer"><div class="r0 incorrect"><input name="q90233:13_answer" disabled="disabled" value="0" id="q90233:13_answer0" checked="checked" type="radio"><label for="q90233:13_answer0" class="m-l-1">a. <span lang="EN-US">for n-1 passes</span></label> <i class="icon fa fa-remove text-danger fa-fw " aria-hidden="true" title="Неверно" aria-label="Неверно"></i></div>
+<div class="r1"><input name="q90233:13_answer" disabled="disabled" value="1" id="q90233:13_answer1" type="radio"><label for="q90233:13_answer1" class="m-l-1">b. <span lang="EN-US">for n passes, where n is the number of elements
+in the array</span></label> </div>
+<div class="r0"><input name="q90233:13_answer" disabled="disabled" value="2" id="q90233:13_answer2" type="radio"><label for="q90233:13_answer2" class="m-l-1">c. <span><span style="" lang="EN-US">for 1 pass</span></span></label> </div>
+</div></div></div><div class="outcome clearfix"><h4 class="accesshide">Отзыв</h4><div class="feedback"><div class="specificfeedback">Ваш ответ неправильный.</div></div></div></div></div><div id="q1" class="que multichoice deferredfeedback correct"><div class="info"><h3 class="no">Вопрос <span class="qno">17</span></h3><div class="state">Верно</div><div class="grade">Баллов: 1 из 1</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_17_2_1_1522683884760_168"><input name="q90233:1_:flagged" value="0" type="hidden"><input value="qaid=2427473&amp;qubaid=90233&amp;qid=502007&amp;slot=1&amp;checksum=92706a6d8ab651242e7935cf685ab08a&amp;sesskey=xgwdAcnCH1&amp;newstate=" class="questionflagpostdata" type="hidden">
+<input class="questionflagvalue" id="q90233:1_:flaggedcheckbox" name="q90233:1_:flagged" value="0" type="hidden"><input class="questionflagimage" src="Test%201%20(second%20attempt)_files/unflagged.png" title="Отметить этот вопрос флажком, чтобы не забыть о нём" alt="Не отмечено" type="image"><span class="questionflagtext" title="Отметить этот вопрос флажком, чтобы не забыть о нём">Отметить вопрос</span></div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Текст вопроса</h4><input name="q90233:1_:sequencecheck" value="3" type="hidden"><div class="qtext"><p><span lang="EN-US">What does mean the asymptotic O- notation?</span><br></p></div><div class="ablock"><div class="prompt">Выберите один ответ:</div><div class="answer"><div class="r0"><input name="q90233:1_answer" disabled="disabled" value="0" id="q90233:1_answer0" type="radio"><label for="q90233:1_answer0" class="m-l-1">a. <span lang="EN-US">the correctness of the solution of the algorithm</span></label> </div>
+<div class="r1 correct"><input name="q90233:1_answer" disabled="disabled" value="1" id="q90233:1_answer1" checked="checked" type="radio"><label for="q90233:1_answer1" class="m-l-1">b. <span><span style="" lang="EN-US">the upper complexity
+constraint of the algorithm</span></span></label> <i class="icon fa fa-check text-success fa-fw " aria-hidden="true" title="Верно" aria-label="Верно"></i></div>
+<div class="r0"><input name="q90233:1_answer" disabled="disabled" value="2" id="q90233:1_answer2" type="radio"><label for="q90233:1_answer2" class="m-l-1">c. <span lang="EN-US">lower complexity constraint of the algorithm</span></label> </div>
+<div class="r1"><input name="q90233:1_answer" disabled="disabled" value="3" id="q90233:1_answer3" type="radio"><label for="q90233:1_answer3" class="m-l-1">d. <span lang="EN-US">limitation of algorithm operation time</span></label> </div>
+</div></div></div><div class="outcome clearfix"><h4 class="accesshide">Отзыв</h4><div class="feedback"><div class="specificfeedback">Ваш ответ верный.</div></div></div></div></div><div id="q7" class="que multichoice deferredfeedback correct"><div class="info"><h3 class="no">Вопрос <span class="qno">18</span></h3><div class="state">Верно</div><div class="grade">Баллов: 1 из 1</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_17_2_1_1522683884760_177"><input name="q90233:7_:flagged" value="0" type="hidden"><input value="qaid=2427479&amp;qubaid=90233&amp;qid=502019&amp;slot=7&amp;checksum=5754d710b2c76cbfd44d8a940dbc3929&amp;sesskey=xgwdAcnCH1&amp;newstate=" class="questionflagpostdata" type="hidden">
+<input class="questionflagvalue" id="q90233:7_:flaggedcheckbox" name="q90233:7_:flagged" value="0" type="hidden"><input class="questionflagimage" src="Test%201%20(second%20attempt)_files/unflagged.png" title="Отметить этот вопрос флажком, чтобы не забыть о нём" alt="Не отмечено" type="image"><span class="questionflagtext" title="Отметить этот вопрос флажком, чтобы не забыть о нём">Отметить вопрос</span></div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Текст вопроса</h4><input name="q90233:7_:sequencecheck" value="3" type="hidden"><div class="qtext"><p><span lang="EN-US">What is the essence of linear search?</span><br></p></div><div class="ablock"><div class="prompt">Выберите один ответ:</div><div class="answer"><div class="r0"><input name="q90233:7_answer" disabled="disabled" value="0" id="q90233:7_answer0" type="radio"><label for="q90233:7_answer0" class="m-l-1">a. <span lang="EN-US">a sequential scan is made from beginning to end
+and back through 2 elements</span></label> </div>
+<div class="r1"><input name="q90233:7_answer" disabled="disabled" value="1" id="q90233:7_answer1" type="radio"><label for="q90233:7_answer1" class="m-l-1">b. <span lang="EN-US">the elements are viewed sequentially from the
+middle of the table</span></label> </div>
+<div class="r0 correct"><input name="q90233:7_answer" disabled="disabled" value="2" id="q90233:7_answer2" checked="checked" type="radio"><label for="q90233:7_answer2" class="m-l-1">c. <span><span style="" lang="EN-US">a sequential scan of
+each item is performed</span></span></label> <i class="icon fa fa-check text-success fa-fw " aria-hidden="true" title="Верно" aria-label="Верно"></i></div>
+</div></div></div><div class="outcome clearfix"><h4 class="accesshide">Отзыв</h4><div class="feedback"><div class="specificfeedback">Ваш ответ верный.</div></div></div></div></div><div id="q16" class="que multichoice deferredfeedback correct"><div class="info"><h3 class="no">Вопрос <span class="qno">19</span></h3><div class="state">Верно</div><div class="grade">Баллов: 1 из 1</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_17_2_1_1522683884760_186"><input name="q90233:16_:flagged" value="0" type="hidden"><input value="qaid=2427488&amp;qubaid=90233&amp;qid=501994&amp;slot=16&amp;checksum=5ce035a1acc8e848d000a77195f47da1&amp;sesskey=xgwdAcnCH1&amp;newstate=" class="questionflagpostdata" type="hidden">
+<input class="questionflagvalue" id="q90233:16_:flaggedcheckbox" name="q90233:16_:flagged" value="0" type="hidden"><input class="questionflagimage" src="Test%201%20(second%20attempt)_files/unflagged.png" title="Отметить этот вопрос флажком, чтобы не забыть о нём" alt="Не отмечено" type="image"><span class="questionflagtext" title="Отметить этот вопрос флажком, чтобы не забыть о нём">Отметить вопрос</span></div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Текст вопроса</h4><input name="q90233:16_:sequencecheck" value="3" type="hidden"><div class="qtext"><p><span lang="EN-US">The algorithm property of discreteness means:</span><br></p></div><div class="ablock"><div class="prompt">Выберите один ответ:</div><div class="answer"><div class="r0"><input name="q90233:16_answer" disabled="disabled" value="0" id="q90233:16_answer0" type="radio"><label for="q90233:16_answer0" class="m-l-1">a. <span lang="EN-US">that each team should be described in terms of a
+particular performer</span></label> </div>
+<div class="r1"><input name="q90233:16_answer" disabled="disabled" value="1" id="q90233:16_answer1" type="radio"><label for="q90233:16_answer1" class="m-l-1">b. strict movement both up and down</label> </div>
+<div class="r0 correct"><input name="q90233:16_answer" disabled="disabled" value="2" id="q90233:16_answer2" checked="checked" type="radio"><label for="q90233:16_answer2" class="m-l-1">c. <span><span style="" lang="EN-US">the partitioning the
+algorithm into a finite number of simple steps</span></span></label> <i class="icon fa fa-check text-success fa-fw " aria-hidden="true" title="Верно" aria-label="Верно"></i></div>
+<div class="r1"><input name="q90233:16_answer" disabled="disabled" value="3" id="q90233:16_answer3" type="radio"><label for="q90233:16_answer3" class="m-l-1">d. that teams must follow one after the other</label> </div>
+</div></div></div><div class="outcome clearfix"><h4 class="accesshide">Отзыв</h4><div class="feedback"><div class="specificfeedback">Ваш ответ верный.</div></div></div></div></div><div id="q4" class="que multichoice deferredfeedback correct"><div class="info"><h3 class="no">Вопрос <span class="qno">20</span></h3><div class="state">Верно</div><div class="grade">Баллов: 1 из 1</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_17_2_1_1522683884760_195"><input name="q90233:4_:flagged" value="0" type="hidden"><input value="qaid=2427476&amp;qubaid=90233&amp;qid=502010&amp;slot=4&amp;checksum=9fab30c463958dcae6a9a7bc283413be&amp;sesskey=xgwdAcnCH1&amp;newstate=" class="questionflagpostdata" type="hidden">
+<input class="questionflagvalue" id="q90233:4_:flaggedcheckbox" name="q90233:4_:flagged" value="0" type="hidden"><input class="questionflagimage" src="Test%201%20(second%20attempt)_files/unflagged.png" title="Отметить этот вопрос флажком, чтобы не забыть о нём" alt="Не отмечено" type="image"><span class="questionflagtext" title="Отметить этот вопрос флажком, чтобы не забыть о нём">Отметить вопрос</span></div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Текст вопроса</h4><input name="q90233:4_:sequencecheck" value="3" type="hidden"><div class="qtext"><p><span lang="EN-US">The logarithm function is considered</span><br></p></div><div class="ablock"><div class="prompt">Выберите один ответ:</div><div class="answer"><div class="r0"><input name="q90233:4_answer" disabled="disabled" value="0" id="q90233:4_answer0" type="radio"><label for="q90233:4_answer0" class="m-l-1">a. <span lang="EN-US">a function growing with a quadratic speed</span></label> </div>
+<div class="r1"><input name="q90233:4_answer" disabled="disabled" value="1" id="q90233:4_answer1" type="radio"><label for="q90233:4_answer1" class="m-l-1">b. <span lang="EN-US">constant function</span></label> </div>
+<div class="r0 correct"><input name="q90233:4_answer" disabled="disabled" value="2" id="q90233:4_answer2" checked="checked" type="radio"><label for="q90233:4_answer2" class="m-l-1">c. <span><span style="" lang="EN-US">a very slowly growing
+function</span></span></label> <i class="icon fa fa-check text-success fa-fw " aria-hidden="true" title="Верно" aria-label="Верно"></i></div>
+<div class="r1"><input name="q90233:4_answer" disabled="disabled" value="3" id="q90233:4_answer3" type="radio"><label for="q90233:4_answer3" class="m-l-1">d. <span lang="EN-US">a decreasing function</span></label> </div>
+</div></div></div><div class="outcome clearfix"><h4 class="accesshide">Отзыв</h4><div class="feedback"><div class="specificfeedback">Ваш ответ верный.</div></div></div></div></div><input name="sesskey" value="xgwdAcnCH1" type="hidden"><div class="submitbtns"></div></div></form><div class="submitbtns"><a class="mod_quiz-next-nav" href="https://edu.grsu.by/mod/quiz/view.php?id=189424">Закончить обзор</a></div></div>
+                    
+                    </div>
+                </section>
+            </div>
+                <div class="col-md-3" id="yui_3_17_2_1_1522683884760_249">
+                    <aside id="block-region-side-pre" class="block-region" data-blockregion="side-pre" data-droptarget="1"><a href="#sb-1" class="sr-only sr-only-focusable">Пропустить &lt;span id="mod_quiz_navblock_title"&gt;Навигация по тесту&lt;/span&gt;</a>
+
+<aside id="mod_quiz_navblock" class=" block block__fake  card m-b-1" role="navigation" data-block="_fake" aria-labelledby="instance-0-header">
+
+    <div class="card-block" id="yui_3_17_2_1_1522683884760_248">
+
+
+            <h3 id="instance-0-header" class="card-title"><span id="mod_quiz_navblock_title">Навигация по тесту</span></h3>
+
+        <div class="card-text content" id="yui_3_17_2_1_1522683884760_247">
+            <div id="user-picture" class="clearfix"><a href="https://edu.grsu.by/user/view.php?id=2354&amp;course=10454"><img src="Test%201%20(second%20attempt)_files/f2.jpg" alt="Изображение пользователя РОМАН ЯЗВИНСКИЙ" title="Изображение пользователя РОМАН ЯЗВИНСКИЙ" class="userpicture" width="35" height="35"></a>РОМАН ЯЗВИНСКИЙ</div><div class="qn_buttons clearfix allquestionsononepage" id="yui_3_17_2_1_1522683884760_246"><a class="qnbutton correct free btn btn-secondary thispage" id="quiznavbutton12" title="Верно" data-quiz-page="0" href="#"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Вопрос </span>1<span class="accesshide"> Эта страница <span class="flagstate"></span></span></a><a class="qnbutton correct free btn btn-secondary thispage" id="quiznavbutton20" title="Верно" data-quiz-page="0" href="#q20"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Вопрос </span>2<span class="accesshide"> Эта страница <span class="flagstate"></span></span></a><a class="qnbutton correct free btn btn-secondary thispage" id="quiznavbutton10" title="Верно" data-quiz-page="0" href="#q10"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Вопрос </span>3<span class="accesshide"> Эта страница <span class="flagstate"></span></span></a><a class="qnbutton correct free btn btn-secondary thispage" id="quiznavbutton6" title="Верно" data-quiz-page="0" href="#q6"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Вопрос </span>4<span class="accesshide"> Эта страница <span class="flagstate"></span></span></a><a class="qnbutton correct free btn btn-secondary thispage" id="quiznavbutton3" title="Верно" data-quiz-page="0" href="#q3"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Вопрос </span>5<span class="accesshide"> Эта страница <span class="flagstate"></span></span></a><a class="qnbutton correct free btn btn-secondary thispage" id="quiznavbutton15" title="Верно" data-quiz-page="0" href="#q15"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Вопрос </span>6<span class="accesshide"> Эта страница <span class="flagstate"></span></span></a><a class="qnbutton correct free btn btn-secondary thispage" id="quiznavbutton2" title="Верно" data-quiz-page="0" href="#q2"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Вопрос </span>7<span class="accesshide"> Эта страница <span class="flagstate"></span></span></a><a class="qnbutton correct free btn btn-secondary thispage" id="quiznavbutton19" title="Верно" data-quiz-page="0" href="#q19"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Вопрос </span>8<span class="accesshide"> Эта страница <span class="flagstate"></span></span></a><a class="qnbutton correct free btn btn-secondary thispage" id="quiznavbutton5" title="Верно" data-quiz-page="0" href="#q5"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Вопрос </span>9<span class="accesshide"> Эта страница <span class="flagstate"></span></span></a><a class="qnbutton correct free btn btn-secondary thispage" id="quiznavbutton8" title="Верно" data-quiz-page="0" href="#q8"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Вопрос </span>10<span class="accesshide"> Эта страница <span class="flagstate"></span></span></a><a class="qnbutton incorrect free btn btn-secondary thispage" id="quiznavbutton18" title="Неверно" data-quiz-page="0" href="#q18"><span class="thispageholder" id="yui_3_17_2_1_1522683884760_245"></span><span class="trafficlight"></span><span class="accesshide">Вопрос </span>11<span class="accesshide"> Эта страница <span class="flagstate"></span></span></a><a class="qnbutton correct free btn btn-secondary thispage" id="quiznavbutton14" title="Верно" data-quiz-page="0" href="#q14"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Вопрос </span>12<span class="accesshide"> Эта страница <span class="flagstate"></span></span></a><a class="qnbutton correct free btn btn-secondary thispage" id="quiznavbutton9" title="Верно" data-quiz-page="0" href="#q9"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Вопрос </span>13<span class="accesshide"> Эта страница <span class="flagstate"></span></span></a><a class="qnbutton correct free btn btn-secondary thispage" id="quiznavbutton11" title="Верно" data-quiz-page="0" href="#q11"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Вопрос </span>14<span class="accesshide"> Эта страница <span class="flagstate"></span></span></a><a class="qnbutton correct free btn btn-secondary thispage" id="quiznavbutton17" title="Верно" data-quiz-page="0" href="#q17"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Вопрос </span>15<span class="accesshide"> Эта страница <span class="flagstate"></span></span></a><a class="qnbutton incorrect free btn btn-secondary thispage" id="quiznavbutton13" title="Неверно" data-quiz-page="0" href="#q13"><span class="thispageholder" id="yui_3_17_2_1_1522683884760_250"></span><span class="trafficlight"></span><span class="accesshide">Вопрос </span>16<span class="accesshide"> Эта страница <span class="flagstate"></span></span></a><a class="qnbutton correct free btn btn-secondary thispage" id="quiznavbutton1" title="Верно" data-quiz-page="0" href="#q1"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Вопрос </span>17<span class="accesshide"> Эта страница <span class="flagstate"></span></span></a><a class="qnbutton correct free btn btn-secondary thispage" id="quiznavbutton7" title="Верно" data-quiz-page="0" href="#q7"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Вопрос </span>18<span class="accesshide"> Эта страница <span class="flagstate"></span></span></a><a class="qnbutton correct free btn btn-secondary thispage" id="quiznavbutton16" title="Верно" data-quiz-page="0" href="#q16"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Вопрос </span>19<span class="accesshide"> Эта страница <span class="flagstate"></span></span></a><a class="qnbutton correct free btn btn-secondary thispage" id="quiznavbutton4" title="Верно" data-quiz-page="0" href="#q4"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Вопрос </span>20<span class="accesshide"> Эта страница <span class="flagstate"></span></span></a></div><div class="othernav"><a class="mod_quiz-next-nav" href="https://edu.grsu.by/mod/quiz/view.php?id=189424">Закончить обзор</a></div>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</aside>
+
+  <span id="sb-1"></span></aside>
+                </div>
+        </div>
+    </div>
+
+    <div id="nav-drawer" data-region="drawer" class="hidden-print moodle-has-zindex closed" aria-hidden="true" tabindex="-1">
+        <div class="pin-drawer" data-region="drawer-toggle">
+            <a href="#" aria-expanded="false" aria-controls="nav-drawer" class="btn btn-secondary" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><i class="fa fa-icon-max-menu"></i><span class="sr-only"><i class="fa fa-bars"></i></span></a>
+        </div>
+        
+        <nav class="list-group">
+                <a class="list-group-item list-group-item-action " href="https://edu.grsu.by/course/view.php?id=10454" data-key="coursehome">
+                    <div class="m-l-0">
+                        <span class="text">Алгоритмы и структуры данных</span>
+                    </div>
+                </a>
+                <a class="list-group-item list-group-item-action " href="https://edu.grsu.by/user/index.php?id=10454" data-key="participants">
+                    <div class="m-l-0">
+                        <span class="text">Участники</span>
+                    </div>
+                </a>
+                <a class="list-group-item list-group-item-action " href="https://edu.grsu.by/grade/report/index.php?id=10454" data-key="grades">
+                    <div class="m-l-0">
+                        <span class="text">Оценки</span>
+                    </div>
+                </a>
+        </nav>
+        <nav class="list-group m-t-1">
+                <a class="list-group-item list-group-item-action " href="https://edu.grsu.by/" data-key="home">
+                    <div class="m-l-0">
+                        <span class="text">В начало</span>
+                    </div>
+                </a>
+                <a class="list-group-item list-group-item-action " href="https://edu.grsu.by/my/" data-key="home">
+                    <div class="m-l-0">
+                        <span class="text">Личный кабинет</span>
+                    </div>
+                </a>
+                <a class="list-group-item list-group-item-action " href="https://edu.grsu.by/calendar/view.php?view=month" data-key="calendar">
+                    <div class="m-l-0">
+                        <span class="text">Календарь</span>
+                    </div>
+                </a>
+                <a class="list-group-item list-group-item-action " href="https://edu.grsu.by/user/files.php" data-key="privatefiles">
+                    <div class="m-l-0">
+                        <span class="text">Личные файлы</span>
+                    </div>
+                </a>
+            <div class="list-group-item" data-key="mycourses">
+                <div class="m-l-0">
+                    <span class="text">Мои курсы</span>
+                </div>
+            </div>
+                <a class="list-group-item list-group-item-action " href="https://edu.grsu.by/course/view.php?id=10259" data-key="10259">
+                    <div class="m-l-1">
+                        <span class="text">Великая Отечественная война советского народа (в контексте Второй мировой войны)</span>
+                    </div>
+                </a>
+                <a class="list-group-item list-group-item-action " href="https://edu.grsu.by/course/view.php?id=50" data-key="50">
+                    <div class="m-l-1">
+                        <span class="text">Языки разметки документов</span>
+                    </div>
+                </a>
+                <a class="list-group-item list-group-item-action " href="https://edu.grsu.by/course/view.php?id=4595" data-key="4595">
+                    <div class="m-l-1">
+                        <span class="text">Политология. Основы идеологии белорусского государства</span>
+                    </div>
+                </a>
+                <a class="list-group-item list-group-item-action " href="https://edu.grsu.by/course/view.php?id=1823" data-key="1823">
+                    <div class="m-l-1">
+                        <span class="text">Технологии разработки платформенно-независимых приложений</span>
+                    </div>
+                </a>
+                <a class="list-group-item list-group-item-action " href="https://edu.grsu.by/course/view.php?id=7979" data-key="7979">
+                    <div class="m-l-1">
+                        <span class="text">Компьютерные системы и сети</span>
+                    </div>
+                </a>
+                <a class="list-group-item list-group-item-action " href="https://edu.grsu.by/course/view.php?id=315" data-key="315">
+                    <div class="m-l-1">
+                        <span class="text">Экономическая теория</span>
+                    </div>
+                </a>
+                <a class="list-group-item list-group-item-action " href="https://edu.grsu.by/course/view.php?id=3279" data-key="3279">
+                    <div class="m-l-1">
+                        <span class="text">Русский язык как иностранный</span>
+                    </div>
+                </a>
+                <a class="list-group-item list-group-item-action " href="https://edu.grsu.by/course/view.php?id=10084" data-key="10084">
+                    <div class="m-l-1">
+                        <span class="text">Военная подготовка (младшие командиры)</span>
+                    </div>
+                </a>
+                <a class="list-group-item list-group-item-action " href="https://edu.grsu.by/course/view.php?id=5966" data-key="5966">
+                    <div class="m-l-1">
+                        <span class="text">Объектно-ориентированные технологии программирования и стандарты проектирования</span>
+                    </div>
+                </a>
+                <a class="list-group-item list-group-item-action " href="https://edu.grsu.by/course/view.php?id=54" data-key="54">
+                    <div class="m-l-1">
+                        <span class="text">Языки программирования</span>
+                    </div>
+                </a>
+                <a class="list-group-item list-group-item-action " href="https://edu.grsu.by/course/index.php#" data-key="courseindexpage">
+                    <div class="m-l-1">
+                        <span class="text">Больше...</span>
+                    </div>
+                </a>
+        </nav>
+    </div>
+
+</div><div id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important" class=""></div>
+
+<div id="top-footer" class="container">
+    <div class="row">
+        <div class="col-md-7 contact">
+            <!--<h3>Информационно-аналитический центр.
+г. Гродно, ул. Ожешко, 22, ауд.120</h3>
+                        <ul>
+                
+                <li><i class="fa fa-mobile-phone"></i>+375 (152) 73-19-72</li>
+                <li><i class="fa fa-envelope"></i>iac@grsu.by</li>
+            </ul>
+            -->
+            <p>
+              </p><h3>Техническая поддержка:</h3><br>
+        <b>Информационно-аналитический центр</b><br>
+        <i class="fa fa-mobile-phone"></i> +375 (152) 73-19-72<br>
+        г. Гродно, ул. Ожешко, 22, ауд.120<br>
+            <p></p>
+            <p>
+              </p><h3>Информационная поддержка:</h3><br>
+        <b>Учебно-методическое управление</b><br>
+        <i class="fa fa-mobile-phone"></i> +375 (152) 72-11-10<br>
+        <i class="fa fa-envelope"></i> <a href="mailto:emcd@grsu.by">emcd@grsu.by</a><br>
+            <p></p>
+        </div>
+        <div class="col-md-5 social">
+          <ul>
+                <li>
+                  <a href="https://www.facebook.com/grsu.grodno" target="_blank">
+                    <i class="fa fa-facebook-square"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://twitter.com/grsu_grodno" target="_blank">
+                    <i class="fa fa-twitter-square"></i>
+                  </a>
+                </li>
+
+
+                <li>
+                  <a href="https://www.linkedin.com/edu/school?id=163031" target="_blank">
+                    <i class="fa fa-linkedin-square"></i>
+                  </a>
+                </li>
+          </ul>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12" style="text-align: center;">
+        © 2017-2018 <a href="https://grsu.by/">ГрГУ им.Янки Купалы</a>
+      </div>
+      <div class="col-md-12 browser" style="text-align: center;">Firefox. 57</div>
+    </div>
+</div>
+
+<footer id="page-footer" class="p-y-1">
+    <div class="container">
+        <div id="course-footer"></div>
+
+
+        <nav class="nav navbar-nav hidden-lg-up">
+                <ul class="list-unstyled p-t-1">
+                                <li><a href="https://edu.grsu.by/" title="Образовательный портал">Образовательный портал</a></li>
+                                <li>Полезные ссылки</li>
+                            <ul class="list-unstyled m-l-1">
+                                            <li><a href="https://eduold.grsu.by/" target="_blank" title="Предыдущая версия образовательного портала">Предыдущая версия образовательного портала</a></li>
+                                            <li><a href="https://emcd.grsu.by/" target="_blank" title="ЭУМК с 2012-2017гг.">ЭУМК с 2012-2017гг.</a></li>
+                                            <li><a href="http://raspisanie.grsu.by/TimeTable/UMU.aspx" target="_blank" title="Расписание студенту">Расписание студенту</a></li>
+                                            <li><a href="http://raspisanie.grsu.by/TimeTable/UMUTeachers.aspx" target="_blank" title="Расписание преподавателю">Расписание преподавателю</a></li>
+                            </ul>
+                                <li>Помощь</li>
+                            <ul class="list-unstyled m-l-1">
+                                            <li><a href="https://edu.grsu.by/downloadFile.php?file=files%2Fhelp%2Ffaculty.pdf#" target="_blank" title="Контактная информация">Контактная информация</a></li>
+                                            <li><a href="https://edu.grsu.by/downloadFile.php?file=files%2Fhelp%2Fhelp_emcd_laborant.pdf#" target="_blank" title="Назначение дисциплин">Назначение дисциплин</a></li>
+                                            <li><a href="https://edu.grsu.by/downloadFile.php?file=files%2Fhelp%2Fhelp_import.pdf#" target="_blank" title="Импорт курсов">Импорт курсов</a></li>
+                                            <li><a href="https://edu.grsu.by/downloadFile.php?file=files%2Fhelp%2Feumk.pdf#" target="_blank" title="Утверждение ЭУМК">Утверждение ЭУМК</a></li>
+                                            <li><a href="https://edu.grsu.by/downloadFile.php?file=files%2Fhelp%2Freestr_eumk2017.pdf#" target="_blank" title="ЭУМК 2017">ЭУМК 2017</a></li>
+                            </ul>
+                                <li><a href="#" title="Язык">Русский ‎(ru)‎</a></li>
+                            <ul class="list-unstyled m-l-1">
+                                            <li><a href="https://edu.grsu.by/mod/quiz/review.php?attempt=76441&amp;lang=ru" title="Русский ‎(ru)‎">Русский ‎(ru)‎</a></li>
+                                            <li><a href="https://edu.grsu.by/mod/quiz/review.php?attempt=76441&amp;lang=en" title="English ‎(en)‎">English ‎(en)‎</a></li>
+                            </ul>
+                </ul>
+        </nav>
+        
+        <script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'https://edu.grsu.by/lib/requirejs.php/-1/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://edu.grsu.by/lib/javascript.php/-1/lib/jquery/jquery-3.1.0.min',
+        jqueryui: 'https://edu.grsu.by/lib/javascript.php/-1/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://edu.grsu.by/lib/javascript.php/-1/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="Test%201%20(second%20attempt)_files/require.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+require(['core/first'], function() {
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "https://edu.grsu.by/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage("ru",{
+ "Play": "Воспроизвести",
+ "Pause": "Приостановить",
+ "Current Time": "Текущее время",
+ "Duration Time": "Продолжительность",
+ "Remaining Time": "Оставшееся время",
+ "Stream Type": "Тип потока",
+ "LIVE": "ОНЛАЙН",
+ "Loaded": "Загрузка",
+ "Progress": "Прогресс",
+ "Fullscreen": "Полноэкранный режим",
+ "Non-Fullscreen": "Неполноэкранный режим",
+ "Mute": "Без звука",
+ "Unmute": "Со звуком",
+ "Playback Rate": "Скорость воспроизведения",
+ "Subtitles": "Субтитры",
+ "subtitles off": "Субтитры выкл.",
+ "Captions": "Подписи",
+ "captions off": "Подписи выкл.",
+ "Chapters": "Главы",
+ "Close Modal Dialog": "Закрыть модальное окно",
+ "Descriptions": "Описания",
+ "descriptions off": "описания выкл.",
+ "Audio Track": "Звуковая дорожка",
+ "You aborted the media playback": "Вы прервали воспроизведение видео",
+ "A network error caused the media download to fail part-way.": "Ошибка сети вызвала сбой во время загрузки видео.",
+ "The media could not be loaded, either because the server or network failed or because the format is not supported.": "Невозможно загрузить видео из-за сетевого или серверного сбоя либо формат не поддерживается.",
+ "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "Воспроизведение видео было приостановлено из-за повреждения либо в связи с тем, что видео использует функции, неподдерживаемые вашим браузером.",
+ "No compatible source was found for this media.": "Совместимые источники для этого видео отсутствуют.",
+ "The media is encrypted and we do not have the keys to decrypt it.": "Видео в зашифрованном виде, и у нас нет ключей для расшифровки.",
+ "Play Video": "Воспроизвести видео",
+ "Close": "Закрыть",
+ "Modal Window": "Модальное окно",
+ "This is a modal window": "Это модальное окно.",
+ "This modal can be closed by pressing the Escape key or activating the close button.": "Модальное окно можно закрыть нажав Esc или кнопку закрытия окна.",
+ ", opens captions settings dialog": ", откроется диалог настройки подписей",
+ ", opens subtitles settings dialog": ", откроется диалог настройки субтитров",
+ ", opens descriptions settings dialog": ", откроется диалог настройки описаний",
+ ", selected": ", выбрано"
+});
+
+    });
+});;
+
+require(['jquery'], function($) {
+    $('#single_select5ac24fec948487').change(function() {
+        $('#single_select_f5ac24fec948486').submit();
+    });
+});
+;
+
+require(['jquery', 'message_popup/message_popover_controller'], function($, controller) {
+    var container = $('#nav-message-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+require(['jquery', 'message_popup/notification_popover_controller'], function($, controller) {
+    var container = $('#nav-notification-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+require(['jquery'], function($) {
+    $('#single_select5ac24fec9484820').change(function() {
+        $('#single_select_f5ac24fec9484819').submit();
+    });
+});
+;
+
+require(['theme_boost/loader']);
+require(['theme_boost/drawer'], function(mod) {
+    mod.init();
+});
+;
+require(["core/notification"], function(amd) { amd.init(343236, []); });;
+require(["core/log"], function(amd) { amd.setConfig({"level":"warn"}); });
+});
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+M.yui.add_module({"core_question_engine":{"name":"core_question_engine","fullpath":"https:\/\/edu.grsu.by\/lib\/javascript.php\/-1\/question\/qengine.js","requires":["node","event"]},"mod_quiz":{"name":"mod_quiz","fullpath":"https:\/\/edu.grsu.by\/lib\/javascript.php\/-1\/mod\/quiz\/module.js","requires":["base","dom","event-delegate","event-key","core_question_engine","moodle-core-formchangechecker"]}});
+
+//]]>
+</script>
+<script type="text/javascript" src="Test%201%20(second%20attempt)_files/footer"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0435","name":"\u041d\u0430\u0437\u0432\u0430\u043d\u0438\u0435","error":"\u041e\u0448\u0438\u0431\u043a\u0430","info":"\u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f","yes":"\u0414\u0430","no":"\u041d\u0435\u0442","cancel":"\u041e\u0442\u043c\u0435\u043d\u0430","changesmadereallygoaway":"\u0412\u044b \u0432\u043d\u0435\u0441\u043b\u0438 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f. \u0412\u044b \u0443\u0432\u0435\u0440\u0435\u043d\u044b, \u0447\u0442\u043e \u0445\u043e\u0442\u0438\u0442\u0435 \u0443\u0439\u0442\u0438 \u0438 \u043f\u043e\u0442\u0435\u0440\u044f\u0442\u044c \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f?","confirm":"\u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0434\u0438\u0442\u044c","areyousure":"\u0412\u044b \u0443\u0432\u0435\u0440\u0435\u043d\u044b?","closebuttontitle":"\u0417\u0430\u043a\u0440\u044b\u0442\u044c","unknownerror":"\u041d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u0430\u044f \u043e\u0448\u0438\u0431\u043a\u0430"},"repository":{"type":"\u0422\u0438\u043f","size":"\u0420\u0430\u0437\u043c\u0435\u0440:","invalidjson":"\u041d\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u0441\u0442\u0440\u043e\u043a\u0430 JSON","nofilesattached":"\u041d\u0435 \u043f\u0440\u0438\u043a\u0440\u0435\u043f\u043b\u0435\u043d \u043d\u0438 \u043e\u0434\u0438\u043d \u0444\u0430\u0439\u043b","filepicker":"\u0412\u044b\u0431\u043e\u0440 \u0444\u0430\u0439\u043b\u0430","logout":"\u0412\u044b\u0445\u043e\u0434","nofilesavailable":"\u041d\u0435\u0442 \u043d\u0438 \u043e\u0434\u043d\u043e\u0433\u043e \u0444\u0430\u0439\u043b\u0430","norepositoriesavailable":"\u041a \u0441\u043e\u0436\u0430\u043b\u0435\u043d\u0438\u044e, \u043d\u0438 \u043e\u0434\u043d\u043e \u0438\u0437 \u0412\u0430\u0448\u0438\u0445 \u0442\u0435\u043a\u0443\u0449\u0438\u0445 \u0445\u0440\u0430\u043d\u0438\u043b\u0438\u0449 \u0444\u0430\u0439\u043b\u043e\u0432 \u043d\u0435 \u043c\u043e\u0436\u0435\u0442 \u0432\u0435\u0440\u043d\u0443\u0442\u044c \u0444\u0430\u0439\u043b\u044b \u0432 \u0437\u0430\u043f\u0440\u0430\u0448\u0438\u0432\u0430\u0435\u043c\u043e\u043c \u0444\u043e\u0440\u043c\u0430\u0442\u0435.","fileexistsdialogheader":"\u0424\u0430\u0439\u043b \u0441\u043e\u0437\u0434\u0430\u043d","fileexistsdialog_editor":"\u0424\u0430\u0439\u043b \u0441 \u044d\u0442\u0438\u043c \u0438\u043c\u0435\u043d\u0435\u043c \u0443\u0436\u0435 \u0431\u044b\u043b \u043f\u0440\u0438\u043a\u0440\u0435\u043f\u043b\u0435\u043d \u043a \u0440\u0435\u0434\u0430\u043a\u0442\u0438\u0440\u0443\u0435\u043c\u043e\u043c\u0443 \u0442\u0435\u043a\u0441\u0442\u0443","fileexistsdialog_filemanager":"\u0424\u0430\u0439\u043b \u0441 \u044d\u0442\u0438\u043c \u0438\u043c\u0435\u043d\u0435\u043c \u0443\u0436\u0435 \u0431\u044b\u043b \u043f\u0440\u0438\u043a\u0440\u0435\u043f\u043b\u0435\u043d","renameto":"\u041f\u0435\u0440\u0435\u0438\u043c\u0435\u043d\u043e\u0432\u0430\u0442\u044c \u0432 \u00ab{$a}\u00bb","referencesexist":"\u0415\u0441\u0442\u044c \u043f\u0441\u0435\u0432\u0434\u043e\u043d\u0438\u043c\u044b\/\u044f\u0440\u043b\u044b\u043a\u0438 \u0444\u0430\u0439\u043b\u043e\u0432 ({$a}), \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u044e\u0442 \u044d\u0442\u043e\u0442 \u0444\u0430\u0439\u043b \u0432 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0430","select":"\u0412\u044b\u0431\u0440\u0430\u0442\u044c"},"admin":{"confirmdeletecomments":"\u0412\u044b \u0443\u0432\u0435\u0440\u0435\u043d\u044b \u0432 \u0442\u043e\u043c, \u0447\u0442\u043e \u0441\u043e\u0431\u0438\u0440\u0430\u0435\u0442\u0435\u0441\u044c \u0443\u0434\u0430\u043b\u0438\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438?","confirmation":"\u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u0438\u0435"},"question":{"flagged":"\u041e\u0442\u043c\u0435\u0447\u0435\u043d\u043e"},"quiz":{"functiondisabledbysecuremode":"\u0412 \u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0435\u0435 \u0432\u0440\u0435\u043c\u044f \u044d\u0442\u0430 \u0444\u0443\u043d\u043a\u0446\u0438\u044f \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0430","startattempt":"\u041d\u0430\u0447\u0430\u0442\u044c \u043f\u043e\u043f\u044b\u0442\u043a\u0443","timesup":"\u0412\u0440\u0435\u043c\u044f \u0437\u0430\u043a\u043e\u043d\u0447\u0438\u043b\u043e\u0441\u044c!"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\n\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"ru"});
+});
+ M.util.js_pending('random5ac24fec948481'); Y.use('core_question_flags', function(Y) { M.core_question_flags.init(Y, "https:\/\/edu.grsu.by\/question\/toggleflag.php", [{"src":"https:\/\/edu.grsu.by\/theme\/image.php\/moove\/core\/1522355589\/i\/unflagged","title":"\u041e\u0442\u043c\u0435\u0442\u0438\u0442\u044c \u044d\u0442\u043e\u0442 \u0432\u043e\u043f\u0440\u043e\u0441 \u0444\u043b\u0430\u0436\u043a\u043e\u043c, \u0447\u0442\u043e\u0431\u044b \u043d\u0435 \u0437\u0430\u0431\u044b\u0442\u044c \u043e \u043d\u0451\u043c","alt":"\u041d\u0435 \u043e\u0442\u043c\u0435\u0447\u0435\u043d\u043e"},{"src":"https:\/\/edu.grsu.by\/theme\/image.php\/moove\/core\/1522355589\/i\/flagged","title":"\u0421\u043d\u044f\u0442\u044c \u0444\u043b\u0430\u0436\u043e\u043a","alt":"\u041e\u0442\u043c\u0435\u0447\u0435\u043d\u043e"}], ["\u041e\u0442\u043c\u0435\u0442\u0438\u0442\u044c \u0432\u043e\u043f\u0440\u043e\u0441","\u0421\u043d\u044f\u0442\u044c \u0444\u043b\u0430\u0436\u043e\u043a"]);  M.util.js_complete('random5ac24fec948481'); });
+ M.util.js_pending('random5ac24fec948482'); Y.use('mod_quiz', function(Y) { M.mod_quiz.nav.init(Y);  M.util.js_complete('random5ac24fec948482'); });
+M.util.help_popups.setup(Y);
+ M.util.js_pending('random5ac24fec9484821'); Y.use('mod_quiz', function(Y) { M.mod_quiz.init_review_form(Y);  M.util.js_complete('random5ac24fec9484821'); });
+ M.util.js_pending('random5ac24fec9484822'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random5ac24fec9484822'); });
+})();
+//]]>
+</script>
+
+    </div>
+</footer>
+
+</body></html>
